@@ -54,5 +54,15 @@ namespace Axolotl_UN_Proyect
             this.Hide();
             frm1.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
