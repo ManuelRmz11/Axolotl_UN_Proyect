@@ -117,4 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>El ajolote es un anfibio endémico de México, concretamente del lago Xochimilco. 
+Desde tiempos pasados posee una posición distinguida en la mitología y la cultura del país. 
+Su nombre significa monstruo acuático (del náhuatl: atl, “agua” y xolotl, “monstruo”), 
+y en la mitología azteca es la advocación acuática del dios Xólotl, hermano gemelo de Quetzalcóatl. 
+Este animal tenía gran importancia para muchas culturas prehispánicas 
+como ser mitológico que desafiaba a la muerte.</value>
+  </data>
 </root>

@@ -121,4 +121,10 @@
   <data name="jpg5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jpg5.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="jpg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jpg3.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Font1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Font1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
