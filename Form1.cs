@@ -33,5 +33,26 @@ namespace Axolotl_UN_Proyect
             MessageBox.Show("Saliendo de la aplicación :c", "Salir", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Application.Exit();
         }
+
+        private void btnAjoloteCare_Click(object sender, EventArgs e)
+        {
+            AjoloteCare frm2 = new AjoloteCare();
+            this.Hide();
+            frm2.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AjoloteAdventures frm3 = new AjoloteAdventures();
+            this.Hide();
+            frm3.Show();
+        }
+
+        private void btnAjoloteWorld_Click(object sender, EventArgs e)
+        {
+            AjoloteWord frm1 = new AjoloteWord();
+            this.Hide();
+            frm1.Show();
+        }
     }
 }

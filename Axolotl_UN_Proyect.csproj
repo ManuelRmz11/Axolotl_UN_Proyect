@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AjoloteAdventures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteAdventures.Designer.cs">
+      <DependentUpon>AjoloteAdventures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteCare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteCare.Designer.cs">
+      <DependentUpon>AjoloteCare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteWord.Designer.cs">
+      <DependentUpon>AjoloteWord.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +72,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AjoloteAdventures.resx">
+      <DependentUpon>AjoloteAdventures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoloteCare.resx">
+      <DependentUpon>AjoloteCare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoloteWord.resx">
+      <DependentUpon>AjoloteWord.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

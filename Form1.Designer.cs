@@ -85,6 +85,7 @@
             this.btnAjoloteWorld.TabIndex = 3;
             this.btnAjoloteWorld.Text = "AjoloteWorld";
             this.btnAjoloteWorld.UseVisualStyleBackColor = false;
+            this.btnAjoloteWorld.Click += new System.EventHandler(this.btnAjoloteWorld_Click);
             // 
             // btnAjoloteCare
             // 
@@ -98,6 +99,7 @@
             this.btnAjoloteCare.TabIndex = 4;
             this.btnAjoloteCare.Text = "AjoloteCare";
             this.btnAjoloteCare.UseVisualStyleBackColor = false;
+            this.btnAjoloteCare.Click += new System.EventHandler(this.btnAjoloteCare_Click);
             // 
             // button3
             // 
@@ -111,6 +113,7 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "AjoloteAdventures";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // btnSalir
             // 
@@ -159,7 +162,7 @@
             this.Font = new System.Drawing.Font("Calisto MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FormPrincipal";
-            this.Text = "Form1";
+            this.Text = "FormPrincipal";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
