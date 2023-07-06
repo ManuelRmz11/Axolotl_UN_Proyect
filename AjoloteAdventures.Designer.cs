@@ -33,7 +33,7 @@
             // 
             // btnRegresar
             // 
-            this.btnRegresar.Location = new System.Drawing.Point(740, 394);
+            this.btnRegresar.Location = new System.Drawing.Point(1043, 490);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(116, 37);
             this.btnRegresar.TabIndex = 0;
@@ -45,9 +45,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(868, 443);
+            this.ClientSize = new System.Drawing.Size(1171, 539);
             this.Controls.Add(this.btnRegresar);
             this.Name = "AjoloteAdventures";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AjoloteAdventures";
             this.ResumeLayout(false);
 
