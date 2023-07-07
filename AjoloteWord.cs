@@ -12,9 +12,31 @@ namespace Axolotl_UN_Proyect
 {
     public partial class AjoloteWord : Form
     {
+        private Timer timer;
+
         public AjoloteWord()
         {
             InitializeComponent();
+            this.Load += AjoloteWord_Load;
+        }
+
+        private void AjoloteWord_Load(object sender, EventArgs e)
+        {
+            timer = new Timer();
+            timer.Interval = 5000;  // 5 segundos
+            timer.Tick += Timer_Tick;
+            timer.Start();
+        }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            timer.Stop();
+            label1.Invoke((MethodInvoker)(() => label1.Text = "El ajolote siempre ha causado una gran fascinación,\n" +
+            " sobre todo, la primera vez que se llevó \n" +
+            "la especie de México a París en 1864. Los europeos \n" +
+            "de todo el continente comenzaron a criarlos, y ese fue el \n" +
+            "comienzo de un robusto negocio que consistía en vender como mascota a\n" +
+            " estos animales, que se reproducen fácilmente en cautiverio."));
         }
 
         private void btnRegresar_Click_1(object sender, EventArgs e)
