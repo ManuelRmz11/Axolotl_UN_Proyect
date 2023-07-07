@@ -37,6 +37,8 @@ namespace Axolotl_UN_Proyect
             "de todo el continente comenzaron a criarlos, y ese fue el \n" +
             "comienzo de un robusto negocio que consistía en vender como mascota a\n" +
             " estos animales, que se reproducen fácilmente en cautiverio."));
+
+            pictureBox1.Invoke((MethodInvoker)(() => pictureBox1.Image = Properties.Resources.Ajolote2));
         }
 
         private void btnRegresar_Click_1(object sender, EventArgs e)
