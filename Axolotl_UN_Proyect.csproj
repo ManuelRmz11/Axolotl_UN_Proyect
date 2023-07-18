@@ -64,6 +64,12 @@
     <Compile Include="AjoloteWord.Designer.cs">
       <DependentUpon>AjoloteWord.cs</DependentUpon>
     </Compile>
+    <Compile Include="AjoloteWord2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteWord2.Designer.cs">
+      <DependentUpon>AjoloteWord2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AjoloteWord.resx">
       <DependentUpon>AjoloteWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoloteWord2.resx">
+      <DependentUpon>AjoloteWord2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

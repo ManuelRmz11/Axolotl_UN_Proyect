@@ -47,5 +47,10 @@ namespace Axolotl_UN_Proyect
             this.Hide();
             principal.Show();
         }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
