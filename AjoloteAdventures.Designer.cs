@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnRegresar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRegresar
@@ -41,11 +42,21 @@
             this.btnRegresar.UseVisualStyleBackColor = true;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(63, 56);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // AjoloteAdventures
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1171, 539);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnRegresar);
             this.Name = "AjoloteAdventures";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -57,5 +68,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.Button button1;
     }
 }
