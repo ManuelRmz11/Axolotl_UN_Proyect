@@ -132,5 +132,11 @@
   <ItemGroup>
     <None Include="Resources\fontac.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_fb272b73-1e7d-41df-84e9-e746857ae920.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_5ece9335-e050-4d3e-9b5c-73b919d90140.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

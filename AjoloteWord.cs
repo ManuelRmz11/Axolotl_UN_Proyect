@@ -50,7 +50,9 @@ namespace Axolotl_UN_Proyect
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-
+            AjoloteWord2 aWord2 = new AjoloteWord2();
+            this.Hide();
+            aWord2.Show();
         }
     }
 }

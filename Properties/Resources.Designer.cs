@@ -63,6 +63,26 @@ namespace Axolotl_UN_Proyect.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _5ece9335_e050_4d3e_9b5c_73b919d90140 {
+            get {
+                object obj = ResourceManager.GetObject("_5ece9335-e050-4d3e-9b5c-73b919d90140", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _fb272b73_1e7d_41df_84e9_e746857ae920 {
+            get {
+                object obj = ResourceManager.GetObject("_fb272b73-1e7d-41df-84e9-e746857ae920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Ajolote2 {
             get {
                 object obj = ResourceManager.GetObject("Ajolote2", resourceCulture);
