@@ -28,7 +28,7 @@ namespace Axolotl_UN_Proyect
             timer.Start();
         }
 
-        private void Timer_Tick(object sender, EventArgs e)
+        private void Timer_Tick(object sender, EventArgs e)  
         {
             timer.Stop();
             label1.Invoke((MethodInvoker)(() => label1.Text = "El ajolote siempre ha causado una gran fascinación,\n" +
@@ -50,7 +50,9 @@ namespace Axolotl_UN_Proyect
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-
+            AjoloteWord2 aWord2 = new AjoloteWord2();
+            this.Hide();
+            aWord2.Show();
         }
     }
 }
