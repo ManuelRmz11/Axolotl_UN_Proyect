@@ -118,12 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>El ajolote es un anfibio endémico de México, 
-Según la leyenda, un ajolote (axolotl) era Xólotl, 
-el dios azteca del fuego y el rayo, 
-disfrazado de salamandra para evitar que lo sacrificaran. 
-Pero estos anfibios mexicanos tienen sus propias 
-cualidades únicas: pueden regenerar extremidades
- perdidas y mantenerse “jóvenes” durante toda la vida.</value>
+    <value> El ajolote es un animal muy importante en la cultura
+ mexicana y su imagen es utilizada como un símbolo 
+de esperanza para la conservación de los ecosistemas
+en el país. En la mitología azteca, el ajolote representa a 
+Xólotl, el dios del ocaso, protector del fuego y uno 
+de los señores del inframundo. Su abundancia en
+los canales del lago de Texcoco lo convirtió en una 
+fuente de alimento para los habitantes del Valle de México, 
+quienes lo consideraban un verdadero manjar. En la 
+actualidad, el ajolote sigue siendo un símbolo de gran 
+importancia para los mexicanos y su imagen 
+ha sido adaptada como el emoji oficial de la Ciudad de México.</value>
   </data>
 </root>
