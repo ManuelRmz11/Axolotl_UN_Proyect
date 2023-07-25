@@ -180,5 +180,8 @@
   <ItemGroup>
     <None Include="Resources\AtrasMemorama.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoAjoloteWord21.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -40,6 +40,10 @@
             this.pBox6 = new System.Windows.Forms.PictureBox();
             this.pBox11 = new System.Windows.Forms.PictureBox();
             this.pBox5 = new System.Windows.Forms.PictureBox();
+            this.btnRegresar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox8)).BeginInit();
@@ -58,7 +62,7 @@
             // 
             this.pBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pBox1.Image = global::Axolotl_UN_Proyect.Properties.Resources.AtrasMemorama;
-            this.pBox1.Location = new System.Drawing.Point(125, 98);
+            this.pBox1.Location = new System.Drawing.Point(47, 90);
             this.pBox1.Name = "pBox1";
             this.pBox1.Size = new System.Drawing.Size(130, 188);
             this.pBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -69,7 +73,7 @@
             // 
             this.pBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pBox7.Image = global::Axolotl_UN_Proyect.Properties.Resources.AtrasMemorama;
-            this.pBox7.Location = new System.Drawing.Point(125, 308);
+            this.pBox7.Location = new System.Drawing.Point(47, 300);
             this.pBox7.Name = "pBox7";
             this.pBox7.Size = new System.Drawing.Size(130, 188);
             this.pBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -80,7 +84,7 @@
             // 
             this.pBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pBox8.Image = global::Axolotl_UN_Proyect.Properties.Resources.AtrasMemorama;
-            this.pBox8.Location = new System.Drawing.Point(279, 308);
+            this.pBox8.Location = new System.Drawing.Point(201, 300);
             this.pBox8.Name = "pBox8";
             this.pBox8.Size = new System.Drawing.Size(130, 188);
             this.pBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -91,7 +95,7 @@
             // 
             this.pBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pBox2.Image = global::Axolotl_UN_Proyect.Properties.Resources.AtrasMemorama;
-            this.pBox2.Location = new System.Drawing.Point(279, 98);
+            this.pBox2.Location = new System.Drawing.Point(201, 90);
             this.pBox2.Name = "pBox2";
             this.pBox2.Size = new System.Drawing.Size(130, 188);
             this.pBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -102,7 +106,7 @@
             // 
             this.pBox10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pBox10.Image = global::Axolotl_UN_Proyect.Properties.Resources.AtrasMemorama;
-            this.pBox10.Location = new System.Drawing.Point(587, 308);
+            this.pBox10.Location = new System.Drawing.Point(509, 300);
             this.pBox10.Name = "pBox10";
             this.pBox10.Size = new System.Drawing.Size(130, 188);
             this.pBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -113,7 +117,7 @@
             // 
             this.pBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pBox4.Image = global::Axolotl_UN_Proyect.Properties.Resources.AtrasMemorama;
-            this.pBox4.Location = new System.Drawing.Point(587, 98);
+            this.pBox4.Location = new System.Drawing.Point(509, 90);
             this.pBox4.Name = "pBox4";
             this.pBox4.Size = new System.Drawing.Size(130, 188);
             this.pBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -124,7 +128,7 @@
             // 
             this.pBox9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pBox9.Image = global::Axolotl_UN_Proyect.Properties.Resources.AtrasMemorama;
-            this.pBox9.Location = new System.Drawing.Point(435, 308);
+            this.pBox9.Location = new System.Drawing.Point(357, 300);
             this.pBox9.Name = "pBox9";
             this.pBox9.Size = new System.Drawing.Size(130, 188);
             this.pBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -135,7 +139,7 @@
             // 
             this.pBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pBox3.Image = global::Axolotl_UN_Proyect.Properties.Resources.AtrasMemorama;
-            this.pBox3.Location = new System.Drawing.Point(435, 98);
+            this.pBox3.Location = new System.Drawing.Point(357, 90);
             this.pBox3.Name = "pBox3";
             this.pBox3.Size = new System.Drawing.Size(130, 188);
             this.pBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -146,7 +150,7 @@
             // 
             this.pBox12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pBox12.Image = global::Axolotl_UN_Proyect.Properties.Resources.AtrasMemorama;
-            this.pBox12.Location = new System.Drawing.Point(893, 308);
+            this.pBox12.Location = new System.Drawing.Point(815, 300);
             this.pBox12.Name = "pBox12";
             this.pBox12.Size = new System.Drawing.Size(130, 188);
             this.pBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -157,7 +161,7 @@
             // 
             this.pBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pBox6.Image = global::Axolotl_UN_Proyect.Properties.Resources.AtrasMemorama;
-            this.pBox6.Location = new System.Drawing.Point(893, 98);
+            this.pBox6.Location = new System.Drawing.Point(815, 90);
             this.pBox6.Name = "pBox6";
             this.pBox6.Size = new System.Drawing.Size(130, 188);
             this.pBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -168,7 +172,7 @@
             // 
             this.pBox11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pBox11.Image = global::Axolotl_UN_Proyect.Properties.Resources.AtrasMemorama;
-            this.pBox11.Location = new System.Drawing.Point(736, 308);
+            this.pBox11.Location = new System.Drawing.Point(658, 300);
             this.pBox11.Name = "pBox11";
             this.pBox11.Size = new System.Drawing.Size(130, 188);
             this.pBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -179,20 +183,81 @@
             // 
             this.pBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pBox5.Image = global::Axolotl_UN_Proyect.Properties.Resources.AtrasMemorama;
-            this.pBox5.Location = new System.Drawing.Point(736, 98);
+            this.pBox5.Location = new System.Drawing.Point(658, 90);
             this.pBox5.Name = "pBox5";
             this.pBox5.Size = new System.Drawing.Size(130, 188);
             this.pBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox5.TabIndex = 8;
             this.pBox5.TabStop = false;
             // 
+            // btnRegresar
+            // 
+            this.btnRegresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnRegresar.FlatAppearance.BorderSize = 0;
+            this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegresar.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegresar.ForeColor = System.Drawing.Color.White;
+            this.btnRegresar.Location = new System.Drawing.Point(1031, 13);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(127, 45);
+            this.btnRegresar.TabIndex = 12;
+            this.btnRegresar.Text = "Salir";
+            this.btnRegresar.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(1031, 66);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(127, 45);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Regresar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(1031, 429);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(127, 59);
+            this.button2.TabIndex = 14;
+            this.button2.Text = "Juego Nuevo";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(320, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(414, 41);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Memorama \"El Ajolote\"";
+            // 
             // AjoloteWord2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources.FondoAjoloteWord2;
+            this.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources.FondoAjoloteWord21;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1171, 521);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.pBox12);
             this.Controls.Add(this.pBox6);
             this.Controls.Add(this.pBox11);
@@ -222,6 +287,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox5)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -239,5 +305,9 @@
         private System.Windows.Forms.PictureBox pBox6;
         private System.Windows.Forms.PictureBox pBox11;
         private System.Windows.Forms.PictureBox pBox5;
+        private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
     }
 }

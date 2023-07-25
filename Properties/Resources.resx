@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="fontac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Ajolote3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ajolote3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -127,11 +130,11 @@
   <data name="FondoAjoloteWord2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FondoAjoloteWord2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="444" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\444.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="jpg5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jpg5.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AtrasMemorama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AtrasMemorama.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jpg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jpg3.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,19 +142,19 @@
   <data name="Font1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Font1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="444" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\444.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_fb272b73-1e7d-41df-84e9-e746857ae920" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\_fb272b73-1e7d-41df-84e9-e746857ae920.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_5ece9335-e050-4d3e-9b5c-73b919d90140" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\_5ece9335-e050-4d3e-9b5c-73b919d90140.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fontac" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fontac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Ajolote2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ajolote2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AtrasMemorama" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AtrasMemorama.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FondoAjoloteWord21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FondoAjoloteWord21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
