@@ -203,9 +203,9 @@
             this.checkBox6.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox6.Location = new System.Drawing.Point(808, 242);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(60, 24);
+            this.checkBox6.Size = new System.Drawing.Size(64, 24);
             this.checkBox6.TabIndex = 17;
-            this.checkBox6.Text = "Alto";
+            this.checkBox6.Text = "Alto ";
             this.checkBox6.UseVisualStyleBackColor = false;
             // 
             // checkBox7
