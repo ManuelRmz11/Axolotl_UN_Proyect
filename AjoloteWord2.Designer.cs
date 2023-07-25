@@ -61,6 +61,7 @@
             this.pBox1.Location = new System.Drawing.Point(125, 98);
             this.pBox1.Name = "pBox1";
             this.pBox1.Size = new System.Drawing.Size(130, 188);
+            this.pBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox1.TabIndex = 0;
             this.pBox1.TabStop = false;
             // 
@@ -71,6 +72,7 @@
             this.pBox7.Location = new System.Drawing.Point(125, 308);
             this.pBox7.Name = "pBox7";
             this.pBox7.Size = new System.Drawing.Size(130, 188);
+            this.pBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox7.TabIndex = 1;
             this.pBox7.TabStop = false;
             // 
@@ -81,6 +83,7 @@
             this.pBox8.Location = new System.Drawing.Point(279, 308);
             this.pBox8.Name = "pBox8";
             this.pBox8.Size = new System.Drawing.Size(130, 188);
+            this.pBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox8.TabIndex = 3;
             this.pBox8.TabStop = false;
             // 
@@ -91,6 +94,7 @@
             this.pBox2.Location = new System.Drawing.Point(279, 98);
             this.pBox2.Name = "pBox2";
             this.pBox2.Size = new System.Drawing.Size(130, 188);
+            this.pBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox2.TabIndex = 2;
             this.pBox2.TabStop = false;
             // 
@@ -101,6 +105,7 @@
             this.pBox10.Location = new System.Drawing.Point(587, 308);
             this.pBox10.Name = "pBox10";
             this.pBox10.Size = new System.Drawing.Size(130, 188);
+            this.pBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox10.TabIndex = 7;
             this.pBox10.TabStop = false;
             // 
@@ -111,6 +116,7 @@
             this.pBox4.Location = new System.Drawing.Point(587, 98);
             this.pBox4.Name = "pBox4";
             this.pBox4.Size = new System.Drawing.Size(130, 188);
+            this.pBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox4.TabIndex = 6;
             this.pBox4.TabStop = false;
             // 
@@ -121,6 +127,7 @@
             this.pBox9.Location = new System.Drawing.Point(435, 308);
             this.pBox9.Name = "pBox9";
             this.pBox9.Size = new System.Drawing.Size(130, 188);
+            this.pBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox9.TabIndex = 5;
             this.pBox9.TabStop = false;
             // 
@@ -131,6 +138,7 @@
             this.pBox3.Location = new System.Drawing.Point(435, 98);
             this.pBox3.Name = "pBox3";
             this.pBox3.Size = new System.Drawing.Size(130, 188);
+            this.pBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox3.TabIndex = 4;
             this.pBox3.TabStop = false;
             // 
@@ -141,6 +149,7 @@
             this.pBox12.Location = new System.Drawing.Point(893, 308);
             this.pBox12.Name = "pBox12";
             this.pBox12.Size = new System.Drawing.Size(130, 188);
+            this.pBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox12.TabIndex = 11;
             this.pBox12.TabStop = false;
             // 
@@ -151,6 +160,7 @@
             this.pBox6.Location = new System.Drawing.Point(893, 98);
             this.pBox6.Name = "pBox6";
             this.pBox6.Size = new System.Drawing.Size(130, 188);
+            this.pBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox6.TabIndex = 10;
             this.pBox6.TabStop = false;
             // 
@@ -161,6 +171,7 @@
             this.pBox11.Location = new System.Drawing.Point(736, 308);
             this.pBox11.Name = "pBox11";
             this.pBox11.Size = new System.Drawing.Size(130, 188);
+            this.pBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox11.TabIndex = 9;
             this.pBox11.TabStop = false;
             // 
@@ -171,6 +182,7 @@
             this.pBox5.Location = new System.Drawing.Point(736, 98);
             this.pBox5.Name = "pBox5";
             this.pBox5.Size = new System.Drawing.Size(130, 188);
+            this.pBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox5.TabIndex = 8;
             this.pBox5.TabStop = false;
             // 
