@@ -10,23 +10,23 @@ using System.Windows.Forms;
 
 namespace Axolotl_UN_Proyect
 {
-    public partial class AjoloteAdventures : Form
+    public partial class AjoloteAdventures01 : Form
     {
-        public AjoloteAdventures()
+        public AjoloteAdventures01()
         {
             InitializeComponent();
         }
 
-        private void btnRegresar_Click(object sender, EventArgs e)
+        private void btnContinuar_Click(object sender, EventArgs e)
         {
-            FormPrincipal principal = new FormPrincipal();
+            AjoloteAdventures02 Form1 = new AjoloteAdventures02();
             this.Hide();
-            principal.Show();
+            Form1.Show();
         }
 
-        private void btnAceptar_Click(object sender, EventArgs e)
+        private void btnRegresar_Click(object sender, EventArgs e)
         {
-            AjoloteAdventures01 Form1 = new AjoloteAdventures01();
+            AjoloteAdventures Form1 = new AjoloteAdventures();
             this.Hide();
             Form1.Show();
         }

@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Axolotl_UN_Proyect
+{
+    public partial class AjoloteAdventures02 : Form
+    {
+        public AjoloteAdventures02()
+        {
+            InitializeComponent();
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.URL=@textBox1.Text;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.AppendText("C:\\Users\\Alexr\\Videos\\Named for an Aztec God, This Species Is Critically Endangered   National Geographi.mp4");
+        }
+
+        private void btnContinuar_Click(object sender, EventArgs e)
+        {
+            AjoloteAdventures03 Form1 = new AjoloteAdventures03();
+            this.Hide();
+            Form1.Show();
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            AjoloteAdventures01 Form1 = new AjoloteAdventures01();
+            this.Hide();
+            Form1.Show();
+        }
+    }
+}

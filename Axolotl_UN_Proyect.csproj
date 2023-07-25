@@ -53,6 +53,24 @@
     <Compile Include="AjoloteAdventures.Designer.cs">
       <DependentUpon>AjoloteAdventures.cs</DependentUpon>
     </Compile>
+    <Compile Include="AjoloteAdventures01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteAdventures01.Designer.cs">
+      <DependentUpon>AjoloteAdventures01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteAdventures02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteAdventures02.Designer.cs">
+      <DependentUpon>AjoloteAdventures02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteAdventures03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteAdventures03.Designer.cs">
+      <DependentUpon>AjoloteAdventures03.cs</DependentUpon>
+    </Compile>
     <Compile Include="AjoloteCare.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +99,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AjoloteAdventures.resx">
       <DependentUpon>AjoloteAdventures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoloteAdventures01.resx">
+      <DependentUpon>AjoloteAdventures01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoloteAdventures02.resx">
+      <DependentUpon>AjoloteAdventures02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoloteAdventures03.resx">
+      <DependentUpon>AjoloteAdventures03.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AjoloteCare.resx">
       <DependentUpon>AjoloteCare.cs</DependentUpon>
@@ -146,6 +173,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Ajolote3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
