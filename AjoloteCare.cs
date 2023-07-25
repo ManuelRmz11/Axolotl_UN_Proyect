@@ -47,7 +47,7 @@ namespace Axolotl_UN_Proyect
             "NOMBRE CIENTÍFICO: Ambystoma mexicanum\r\n" +
             "TIPO: Anfibio\r\n" +
             "DIETA: Carnívoros\r\n" +
-            "ESPERANZA DE VIDA EN LIBERTAD: 10 -15 años\r\n" +
+            "ESPERANZA DE VIDA EN LIBERTAD: 10 -15 años\r\n" + 
             "TAMAÑO: Hasta 30 cm\r\nPESO: 60 - 220 gr\r\n" +
             "ESTADO EN LA LISTA ROJA DE LA UICN: En peligro crítico\r\n" +
             "TENDENCIA DE LA POBLACIÓN ACTUAL: Decreciendo ")); 
