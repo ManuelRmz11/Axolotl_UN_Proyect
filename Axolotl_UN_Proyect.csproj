@@ -183,5 +183,23 @@
   <ItemGroup>
     <None Include="Resources\FondoAjoloteWord21.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAjolote1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAjolote2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAjolote3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAjolote4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAjolote5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAjolote6.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

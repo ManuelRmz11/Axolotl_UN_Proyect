@@ -181,6 +181,66 @@ namespace Axolotl_UN_Proyect.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MAjolote1 {
+            get {
+                object obj = ResourceManager.GetObject("MAjolote1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MAjolote2 {
+            get {
+                object obj = ResourceManager.GetObject("MAjolote2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MAjolote3 {
+            get {
+                object obj = ResourceManager.GetObject("MAjolote3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MAjolote4 {
+            get {
+                object obj = ResourceManager.GetObject("MAjolote4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MAjolote5 {
+            get {
+                object obj = ResourceManager.GetObject("MAjolote5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MAjolote6 {
+            get {
+                object obj = ResourceManager.GetObject("MAjolote6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a pictureBox1.Invoke((MethodInvoker)(() =&gt; pictureBox1.Image = Properties.Resources.NuevaImagen));.
         /// </summary>
         internal static string String {
