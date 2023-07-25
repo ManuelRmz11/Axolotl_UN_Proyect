@@ -42,14 +42,14 @@ namespace Axolotl_UN_Proyect
             timer2.Start();
 
             timer3 = new Timer();
-            timer3.Interval = 30000;  // 20 segundos
+            timer3.Interval = 20000;  // 20 segundos
             timer3.Tick += Timer3_Tick;
             timer3.Start();
         }
         private void Timer_Tick(object sender, EventArgs e)
         {
             timer.Stop();
-            label1.Invoke((MethodInvoker)(() => label1.Text = 
+            label1.Invoke((MethodInvoker)(() => label1.Text =
             "NOMBRE COMÚN: Ajolote\r\n" +
             "NOMBRE CIENTÍFICO: Ambystoma mexicanum\r\n" +
             "TIPO: Anfibio\r\n" +
@@ -74,7 +74,7 @@ namespace Axolotl_UN_Proyect
             " facilidad y son mascotas agradables.\r\n" +
             " Los ajolotes tienen un periodo de vida de \r\n" +
             "10 a 15 años en acuarios \r\n" +
-            "si se les brinda el entorno y los cuidados adecuados."
+            "si se les brinda el entorno y los cuidados adecuados.\r\n"
             ));
             pictureBox1.Invoke((MethodInvoker)(() => pictureBox1.Image = Properties.Resources.Ajolote3));
         }
@@ -84,10 +84,10 @@ namespace Axolotl_UN_Proyect
             label1.Invoke((MethodInvoker)(() => label1.Text =
             "Los ajolotes han fascinado al público\r\n" +
             " durante mucho tiempo, más aún cuando fueron traídos por\r\n" +
-            " primera vez de México a París en 1864 .\r\n " +
+            " primera vez de México a París en 1864 . \r\n" +
             "Los europeos de todo el continente comenzaron a criar salamandras,\r\n" +
             "el comienzo de un fuerte comercio de mascotas en los animales,\r\n" +
-            " que se reproducen fácilmente en cautiverio. "));
+            " que se reproducen fácilmente en cautiverio.\r\n "));
             pictureBox1.Invoke((MethodInvoker)(() => pictureBox1.Image = Properties.Resources.Ajolote3));
         }
     }
