@@ -14,6 +14,7 @@ namespace Axolotl_UN_Proyect
     {
         private Timer timer;
         private Timer timer2;
+        private Timer timer3;
 
         public AjoloteCare()
         {
@@ -64,7 +65,8 @@ namespace Axolotl_UN_Proyect
         private void Timer2_Tick(object sender, EventArgs e)
         {
             timer2.Stop();
-            label1.Invoke((MethodInvoker)(() => label1.Text = "NOMBRE COMÚN: Ajolote\r\n" +
+            label1.Invoke((MethodInvoker)(() => label1.Text =
+            "NOMBRE COMÚN: Ajolote\r\n" +
             "NOMBRE CIENTÍFICO: Ambystoma mexicanum\r\n" +
             "TIPO: Anfibio\r\n" +
             "DIETA: Carnívoros\r\n" +
@@ -77,14 +79,7 @@ namespace Axolotl_UN_Proyect
         private void Timer3_Tick(object sender, EventArgs e)
         {
             timer2.Stop();
-            label1.Invoke((MethodInvoker)(() => label1.Text = "NOMBRE COMÚN: Ajolote\r\n" +
-            "NOMBRE CIENTÍFICO: Ambystoma mexicanum\r\n" +
-            "TIPO: Anfibio\r\n" +
-            "DIETA: Carnívoros\r\n" +
-            "ESPERANZA DE VIDA EN LIBERTAD: 10 -15 años\r\n" +
-            "TAMAÑO: Hasta 30 cm\r\nPESO: 60 - 220 gr\r\n" +
-            "ESTADO EN LA LISTA ROJA DE LA UICN: En peligro crítico\r\n" +
-            "TENDENCIA DE LA POBLACIÓN ACTUAL: Decreciendo "));
+            label1.Invoke((MethodInvoker)(() => label1.Text = ""));
             pictureBox1.Invoke((MethodInvoker)(() => pictureBox1.Image = Properties.Resources.Ajolote3));
         }
     }
