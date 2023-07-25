@@ -118,14 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Un ajolote es una salamandra acuática 
-relacionada con las salamandras tigre. 
-En un acuario, estos nunca adoptarán 
-su forma adulta, sino que permanecerán
-como larvas. Estos pueden cuidarse con
- facilidad y son mascotas agradables.
- Los ajolotes tienen un periodo de vida de 
-10 a 15 años en acuarios 
-si se les brinda el entorno y los cuidados adecuados.</value>
+    <value>Bienvenido a: Ajolote Care
+
+
+En Ajolote Care aprenderas la importancia  de
+proteger a los ajolotes y su hábitat acuático.
+
+Esto para tener una
+mayor comprensión de las acciones
+individuales que pueden marcar la
+diferencia en la conservación del ajolote y
+la promoción de prácticas sostenibles.</value>
   </data>
 </root>

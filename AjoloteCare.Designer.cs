@@ -71,9 +71,9 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calisto MT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(87, 141);
+            this.label1.Location = new System.Drawing.Point(159, 101);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(570, 252);
+            this.label1.Size = new System.Drawing.Size(516, 308);
             this.label1.TabIndex = 3;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
