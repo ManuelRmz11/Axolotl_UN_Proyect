@@ -16,5 +16,17 @@ namespace Axolotl_UN_Proyect
         {
             InitializeComponent();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            AjoloteCare principal = new AjoloteCare();
+            this.Hide();
+            principal.Show();
+        }
+
+        private void AjoloteCare2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

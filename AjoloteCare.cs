@@ -50,7 +50,9 @@ namespace Axolotl_UN_Proyect
             "ESPERANZA DE VIDA EN LIBERTAD: 10 -15 años\r\n" + 
             "TAMAÑO: Hasta 30 cm\r\nPESO: 60 - 220 gr\r\n" +
             "ESTADO EN LA LISTA ROJA DE LA UICN: En peligro crítico\r\n" +
-            "TENDENCIA DE LA POBLACIÓN ACTUAL: Decreciendo ")); 
+            "TENDENCIA DE LA POBLACIÓN ACTUAL: Decreciendo\r\n " +
+
+            "Encuentra el Boton 'SIguiente' :)")); 
 
             pictureBox1.Invoke((MethodInvoker)(() => pictureBox1.Image = Properties.Resources.Ajolote2));
         }
@@ -58,6 +60,13 @@ namespace Axolotl_UN_Proyect
         {
             timer2.Stop();
            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AjoloteCare2 principal = new AjoloteCare2();
+            this.Hide();
+            principal.Show();
         }
     }
 }
