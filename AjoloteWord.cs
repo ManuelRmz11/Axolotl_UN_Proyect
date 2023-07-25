@@ -42,14 +42,12 @@ namespace Axolotl_UN_Proyect
             " que tiene una gran capacidad regenerativa y\n" +
             " puede regenerar extremidades perdidas y partes\n " +
             "dañadas de órganos internos como el cerebro,\n" +
-            " corazón y médula espinal. Esta capacidad ha \n" +
-            "despertado un gran interés científico y podría \n" +
-            "ayudar a desarrollar técnicas para la regeneración\n" +
-            " de tejidos humanos. Sin embargo, el ajolote \n" +
-            "está en peligro crítico de extinción debido a \n" +
-            "la contaminación de su hábitat, la caza para\n" +
-            " consumo humano y la introducción de especies\n " +
-            "exóticas en su ambiente."));
+            " corazón y médula espinal.\n " +
+            "Esta capacidad ha despertado un gran interés científico y podría \n" +
+            "ayudar a desarrollar técnicas para la regeneración de tejidos humanos.\n" +
+            "Sin embargo, el ajolote está en peligro crítico de extinción debido a \n" +
+            "la contaminación de su hábitat, la caza para consumo humano y la\n" +
+            "introducción de especies exóticas en su ambiente."));
 
             pictureBox1.Invoke((MethodInvoker)(() => pictureBox1.Image = Properties.Resources.Ajolote2));
         }
@@ -58,11 +56,11 @@ namespace Axolotl_UN_Proyect
         {
             timer2.Stop();
             label1.Invoke((MethodInvoker)(() => label1.Text = "El hábitat natural del ajolote \n" +
-            "es el lago de Xochimilco, cerca de la Ciudad de México. Desafortunadamente,\n" +
-            " su conservación se encuentra en riesgo debido a la contaminación \n" +
-            "de su hábitat, la caza para consumo humano y la introducción\n" +
-            " de especies exóticas en su ambiente1. \n" +
-            "Para proteger al ajolote y su hábitat natural, \n" +
+            "es el lago de Xochimilco, cerca de la Ciudad de México. " +
+            "Desafortunadamente, su conservación se encuentra en " +
+            "riesgo debido a la contaminación de su hábitat, la caza" +
+            "para consumo humano y la introducción de especies exóticas" +
+            "en su ambiente1. Para proteger al ajolote y su hábitat natural,\n" +
             "se están llevando a cabo diversas medidas de\n" +
             " conservación. Por ejemplo, se está trabajando \n" +
             "en la chinampa refugio en Xochimilco para proporcionar \n" +
