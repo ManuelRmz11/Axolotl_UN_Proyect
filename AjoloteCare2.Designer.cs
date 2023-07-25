@@ -239,9 +239,9 @@
             this.checkBox9.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox9.Location = new System.Drawing.Point(808, 464);
             this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(114, 24);
+            this.checkBox9.Size = new System.Drawing.Size(118, 24);
             this.checkBox9.TabIndex = 22;
-            this.checkBox9.Text = " 15-20 Años";
+            this.checkBox9.Text = " 15-20 Años ";
             this.checkBox9.UseVisualStyleBackColor = false;
             // 
             // checkBox10
