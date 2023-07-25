@@ -29,10 +29,5 @@ namespace Axolotl_UN_Proyect
             this.Hide();
             Form1.Show();
         }
-
-        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
-        {
-
-        }
     }
 }
