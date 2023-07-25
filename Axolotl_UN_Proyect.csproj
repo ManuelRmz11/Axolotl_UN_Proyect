@@ -59,6 +59,30 @@
     <Compile Include="AjoloteCare.Designer.cs">
       <DependentUpon>AjoloteCare.cs</DependentUpon>
     </Compile>
+    <Compile Include="AjoloteCare2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteCare2.Designer.cs">
+      <DependentUpon>AjoloteCare2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteCare3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteCare3.Designer.cs">
+      <DependentUpon>AjoloteCare3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteCare4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteCare4.Designer.cs">
+      <DependentUpon>AjoloteCare4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteCare5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteCare5.Designer.cs">
+      <DependentUpon>AjoloteCare5.cs</DependentUpon>
+    </Compile>
     <Compile Include="AjoloteWord.cs">
       <SubType>Form</SubType>
     </Compile>
