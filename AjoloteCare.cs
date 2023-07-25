@@ -45,14 +45,13 @@ namespace Axolotl_UN_Proyect
             timer.Stop();
             label1.Invoke((MethodInvoker)(() => label1.Text ="NOMBRE COMÚN: Ajolote\r\n" +
             "NOMBRE CIENTÍFICO: Ambystoma mexicanum\r\n" +
-            "TIPO: Anfibio\r\n" +
-            "DIETA: Carnívoros\r\n" +
-            "ESPERANZA DE VIDA EN LIBERTAD: 10 -15 años\r\n" + 
-            "TAMAÑO: Hasta 30 cm\r\nPESO: 60 - 220 gr\r\n" +
-            "ESTADO EN LA LISTA ROJA DE LA UICN: En peligro crítico\r\n" +
-            "TENDENCIA DE LA POBLACIÓN ACTUAL: Decreciendo\r\n " +
-
-            "Encuentra el Boton 'SIguiente' :)")); 
+            "\r\nTIPO: Anfibio\r\n" +
+            "\r\nDIETA: Carnívoros\r\n" +
+            "\r\nESPERANZA DE VIDA EN LIBERTAD: 10 -15 años\r\n" +
+            "\r\nTAMAÑO: Hasta 30 cm\r\nPESO: 60 - 220 gr\r\n" +
+            "\r\nESTADO EN LA LISTA ROJA DE LA UICN: En peligro crítico\r\n" +
+            "\r\nTENDENCIA DE LA POBLACIÓN ACTUAL: Decreciendo\r\n " +
+            "\r\nEncuentra el Boton 'SIguiente' :)")); 
 
             pictureBox1.Invoke((MethodInvoker)(() => pictureBox1.Image = Properties.Resources.Ajolote2));
         }
