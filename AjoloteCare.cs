@@ -41,10 +41,10 @@ namespace Axolotl_UN_Proyect
             timer2.Tick += Timer2_Tick;
             timer2.Start();
 
-            timer2 = new Timer();
-            timer2.Interval = 20000;  // 20 segundos
-            timer2.Tick += Timer3_Tick;
-            timer2.Start();
+            timer3 = new Timer();
+            timer3.Interval = 20000;  // 20 segundos
+            timer3.Tick += Timer3_Tick;
+            timer3.Start();
         }
         private void Timer_Tick(object sender, EventArgs e)
         {
@@ -78,7 +78,7 @@ namespace Axolotl_UN_Proyect
         }
         private void Timer3_Tick(object sender, EventArgs e)
         {
-            timer2.Stop();
+            timer3.Stop();
             label1.Invoke((MethodInvoker)(() => label1.Text = ""));
             pictureBox1.Invoke((MethodInvoker)(() => pictureBox1.Image = Properties.Resources.Ajolote3));
         }
