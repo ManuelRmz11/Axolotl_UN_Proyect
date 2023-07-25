@@ -14,7 +14,6 @@ namespace Axolotl_UN_Proyect
     {
         private Timer timer;
         private Timer timer2;
-        private Timer timer3;
 
         public AjoloteCare()
         {
@@ -40,11 +39,6 @@ namespace Axolotl_UN_Proyect
             timer2.Interval = 20000;  // 20 segundos
             timer2.Tick += Timer2_Tick;
             timer2.Start();
-
-            timer3 = new Timer();
-            timer3.Interval = 20000;  // 20 segundos
-            timer3.Tick += Timer3_Tick;
-            timer3.Start();
         }
         private void Timer_Tick(object sender, EventArgs e)
         {
@@ -76,18 +70,6 @@ namespace Axolotl_UN_Proyect
             "10 a 15 años en acuarios \r\n" +
             "si se les brinda el entorno y los cuidados adecuados.\r\n"
             ));
-            pictureBox1.Invoke((MethodInvoker)(() => pictureBox1.Image = Properties.Resources.Ajolote3));
-        }
-        private void Timer3_Tick(object sender, EventArgs e)
-        {
-            timer3.Stop();
-            label1.Invoke((MethodInvoker)(() => label1.Text =
-            "Los ajolotes han fascinado al público\r\n" +
-            " durante mucho tiempo, más aún cuando fueron traídos por\r\n" +
-            " primera vez de México a París en 1864 . \r\n" +
-            "Los europeos de todo el continente comenzaron a criar salamandras,\r\n" +
-            "el comienzo de un fuerte comercio de mascotas en los animales,\r\n" +
-            " que se reproducen fácilmente en cautiverio.\r\n "));
             pictureBox1.Invoke((MethodInvoker)(() => pictureBox1.Image = Properties.Resources.Ajolote3));
         }
     }
