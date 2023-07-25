@@ -16,16 +16,6 @@ namespace Axolotl_UN_Proyect
         {
             InitializeComponent();
         }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            axWindowsMediaPlayer1.URL=@textBox1.Text;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("C:\\Users\\Alexr\\Videos\\Named for an Aztec God, This Species Is Critically Endangered   National Geographi.mp4");
-        }
-
         private void btnContinuar_Click(object sender, EventArgs e)
         {
             AjoloteAdventures03 Form1 = new AjoloteAdventures03();
