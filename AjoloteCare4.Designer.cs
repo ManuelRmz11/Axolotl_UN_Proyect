@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AjoloteCare4));
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegresar = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,11 +62,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calisto MT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(16, 132);
+            this.label1.Location = new System.Drawing.Point(136, 56);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(570, 252);
+            this.label1.Size = new System.Drawing.Size(524, 56);
             this.label1.TabIndex = 10;
-            this.label1.Text = resources.GetString("label1.Text");
+            this.label1.Text = "En que año fueron traidos \r\npor primera vez de México a Paris los Ajolotes?\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
@@ -96,11 +98,46 @@
             this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = false;
             // 
+            // button2
+            // 
+            this.button2.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources.Ac4;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Location = new System.Drawing.Point(12, 159);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(200, 274);
+            this.button2.TabIndex = 12;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources.Ac42;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Location = new System.Drawing.Point(543, 159);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(200, 274);
+            this.button3.TabIndex = 13;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources.Ac41;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.Location = new System.Drawing.Point(284, 159);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(200, 274);
+            this.button4.TabIndex = 14;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // AjoloteCare4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources._444;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1173, 547);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
@@ -120,5 +157,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
