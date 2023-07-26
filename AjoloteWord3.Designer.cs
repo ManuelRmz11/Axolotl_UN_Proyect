@@ -49,9 +49,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Axolotl_UN_Proyect.Properties.Resources.MAjolote1;
-            this.pictureBox1.Location = new System.Drawing.Point(102, 283);
+            this.pictureBox1.Location = new System.Drawing.Point(17, 219);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(144, 201);
+            this.pictureBox1.Size = new System.Drawing.Size(168, 265);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -59,9 +59,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Axolotl_UN_Proyect.Properties.Resources.MAjolote2;
-            this.pictureBox2.Location = new System.Drawing.Point(276, 283);
+            this.pictureBox2.Location = new System.Drawing.Point(212, 219);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(144, 201);
+            this.pictureBox2.Size = new System.Drawing.Size(168, 265);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -69,9 +69,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Axolotl_UN_Proyect.Properties.Resources.LogoAjoloteWord;
-            this.pictureBox3.Location = new System.Drawing.Point(529, 93);
+            this.pictureBox3.Location = new System.Drawing.Point(548, 12);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(177, 170);
+            this.pictureBox3.Size = new System.Drawing.Size(122, 108);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -79,9 +79,9 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Axolotl_UN_Proyect.Properties.Resources.MAjolote3;
-            this.pictureBox4.Location = new System.Drawing.Point(450, 283);
+            this.pictureBox4.Location = new System.Drawing.Point(407, 219);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(144, 201);
+            this.pictureBox4.Size = new System.Drawing.Size(168, 265);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
@@ -89,9 +89,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Axolotl_UN_Proyect.Properties.Resources.MAjolote5;
-            this.pictureBox5.Location = new System.Drawing.Point(798, 283);
+            this.pictureBox5.Location = new System.Drawing.Point(797, 219);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(144, 201);
+            this.pictureBox5.Size = new System.Drawing.Size(168, 265);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
@@ -99,9 +99,9 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Axolotl_UN_Proyect.Properties.Resources.MAjolote4;
-            this.pictureBox6.Location = new System.Drawing.Point(624, 283);
+            this.pictureBox6.Location = new System.Drawing.Point(602, 219);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(144, 201);
+            this.pictureBox6.Size = new System.Drawing.Size(168, 265);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
@@ -109,9 +109,9 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Axolotl_UN_Proyect.Properties.Resources.MAjolote6;
-            this.pictureBox7.Location = new System.Drawing.Point(972, 283);
+            this.pictureBox7.Location = new System.Drawing.Point(992, 219);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(144, 201);
+            this.pictureBox7.Size = new System.Drawing.Size(168, 265);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 4;
             this.pictureBox7.TabStop = false;
@@ -119,12 +119,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Calisto MT", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(429, 22);
+            this.label1.Location = new System.Drawing.Point(427, 132);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(396, 53);
+            this.label1.Size = new System.Drawing.Size(398, 55);
             this.label1.TabIndex = 16;
             this.label1.Text = "Gracias por Jugar";
             // 
