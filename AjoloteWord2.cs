@@ -114,5 +114,18 @@ namespace Axolotl_UN_Proyect
                 }
             }
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("");
+            Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormPrincipal principal = new FormPrincipal();
+            this.Hide();
+            principal.Show();
+        }
     }
 }
