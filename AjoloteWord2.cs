@@ -42,6 +42,9 @@ namespace Axolotl_UN_Proyect
             List<Image> images = new List<Image>
             {
                 // Se agregan aquí las imágenes de ajolotes (MAjolote1, MAjolote2, etc.)
+                ((System.Drawing.Image)(Properties.Resources.ResourceManager.GetObject("MAjolote1"))),
+                ((System.Drawing.Image)(Properties.Resources.ResourceManager.GetObject("MAjolote2"))),
+                // Agrega todas las imágenes de ajolotes al completar la lista
             };
 
             // Mezclar aleatoriamente las imágenes utilizando el algoritmo de Fisher-Yates
@@ -113,19 +116,6 @@ namespace Axolotl_UN_Proyect
                     timer.Start();
                 }
             }
-        }
-
-        private void btnRegresar_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("");
-            Application.Exit();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            FormPrincipal principal = new FormPrincipal();
-            this.Hide();
-            principal.Show();
         }
     }
 }
