@@ -59,9 +59,9 @@
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Axolotl_UN_Proyect.Properties.Resources._5ece9335_e050_4d3e_9b5c_73b919d90140;
-            this.pictureBox1.Location = new System.Drawing.Point(781, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(802, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(391, 553);
+            this.pictureBox1.Size = new System.Drawing.Size(370, 553);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -72,7 +72,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calisto MT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(69, 9);
+            this.label1.Location = new System.Drawing.Point(103, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(516, 308);
             this.label1.TabIndex = 3;
