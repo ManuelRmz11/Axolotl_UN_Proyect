@@ -47,11 +47,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AjoloteAdventure3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteAdventure3.Designer.cs">
+      <DependentUpon>AjoloteAdventure3.cs</DependentUpon>
+    </Compile>
     <Compile Include="AjoloteAdventures.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AjoloteAdventures.Designer.cs">
       <DependentUpon>AjoloteAdventures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteAdventures1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteAdventures1.Designer.cs">
+      <DependentUpon>AjoloteAdventures1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteAdventures2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteAdventures2.Designer.cs">
+      <DependentUpon>AjoloteAdventures2.cs</DependentUpon>
     </Compile>
     <Compile Include="AjoloteCare.cs">
       <SubType>Form</SubType>
@@ -103,8 +121,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AjoloteAdventure3.resx">
+      <DependentUpon>AjoloteAdventure3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AjoloteAdventures.resx">
       <DependentUpon>AjoloteAdventures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoloteAdventures1.resx">
+      <DependentUpon>AjoloteAdventures1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoloteAdventures2.resx">
+      <DependentUpon>AjoloteAdventures2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AjoloteCare.resx">
       <DependentUpon>AjoloteCare.cs</DependentUpon>
