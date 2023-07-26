@@ -26,7 +26,7 @@ namespace Axolotl_UN_Proyect
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            AjoloteAdventures01 Form1 = new AjoloteAdventures01();
+            AjoloteAdventures Form1 = new AjoloteAdventures();
             this.Hide();
             Form1.Show();
         }
