@@ -173,22 +173,22 @@ namespace Axolotl_UN_Proyect
                     switch (imageDict[firstPick])
                     {
                         case "MAjolote1":
-                            MessageBox.Show("Información sobre MAjolote1");
+                            MessageBox.Show("Ajolote Gris Parduzco");
                             break;
                         case "MAjolote2":
-                            MessageBox.Show("Información sobre MAjolote2");
+                            MessageBox.Show("Ajolote Blanco con Branquias Rosadas");
                             break;
                         case "MAjolote3":
-                            MessageBox.Show("Información sobre MAjolote3");
+                            MessageBox.Show("Ajolote Leucístico");
                             break;
                         case "MAjolote4":
-                            MessageBox.Show("Información sobre MAjolote4");
+                            MessageBox.Show("Ajolote Albino");
                             break;
                         case "MAjolote5":
-                            MessageBox.Show("Información sobre MAjolote5");
+                            MessageBox.Show("Ajolote Dorado");
                             break;
                         case "MAjolote6":
-                            MessageBox.Show("Información sobre MAjolote6");
+                            MessageBox.Show("Ajolote Melanístico");
                             break;
                     }
 
