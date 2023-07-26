@@ -12,113 +12,213 @@ namespace Axolotl_UN_Proyect
 {
     public partial class AjoloteWord2 : Form
     {
-        // Variables para almacenar los PictureBox seleccionados
-        private PictureBox firstBox;  // Primer PictureBox seleccionado
-        private PictureBox secondBox; // Segundo PictureBox seleccionado
+        // Lista de PictureBoxes
+        private List<PictureBox> pictureBoxes;
+
+        // Lista de nombres de imágenes para las cartas boca arriba
+        private List<string> imageNames;
+
+        // Diccionario para almacenar qué imagen está en cada PictureBox
+        private Dictionary<PictureBox, string> imageDict;
+
+        // Variables para almacenar la primera y segunda selección del usuario
+        private PictureBox firstPick;
+        private PictureBox secondPick;
 
         public AjoloteWord2()
         {
             InitializeComponent();
 
-            // Al inicializar el formulario, se establecen las imágenes y eventos de clic para cada PictureBox
-            for (int i = 1; i <= 12; i++)
+            // Inicializar lista de PictureBoxes
+            pictureBoxes = new List<PictureBox>()
             {
-                // Buscar el PictureBox en el formulario con el nombre "pBox" + i
-                PictureBox pictureBox = this.Controls.Find("pBox" + i, true).FirstOrDefault() as PictureBox;
-                if (pictureBox != null)
-                {
-                    // Establecer la imagen "AtrasMemorama" para cada PictureBox
-                    pictureBox.Image = Properties.Resources.AtrasMemorama;
+                pBox1,
+                pBox2,
+                pBox3,
+                pBox4,
+                pBox5,
+                pBox6,
+                pBox7,
+                pBox8,
+                pBox9,
+                pBox10,
+                pBox11,
+                pBox12
+            };
 
-                    // Asignar el evento de clic a cada PictureBox
-                    pictureBox.Click += PictureBox_Click;
-                }
+            // Inicializar lista de nombres de imágenes para las cartas boca arriba
+            imageNames = new List<string>()
+            {
+                "MAjolote1",
+                "MAjolote2",
+                "MAjolote3",
+                "MAjolote4",
+                "MAjolote5",
+                "MAjolote6"
+            };
+
+            // Duplicar lista de nombres de imágenes para tener dos copias de cada imagen
+            imageNames.AddRange(imageNames);
+
+            // Inicializar diccionario de imágenes
+            imageDict = new Dictionary<PictureBox, string>();
+
+            // Asignar evento Click a cada PictureBox
+            foreach (PictureBox pb in pictureBoxes)
+            {
+                pb.Click += Pb_Click;
             }
+
+            // Iniciar juego automáticamente
+            btnJugar_Click(this, EventArgs.Empty);
         }
 
         private void btnJugar_Click(object sender, EventArgs e)
         {
-            // Lista de imágenes de ajolotes que se utilizarán en el juego
-            List<Image> images = new List<Image>
+            // Habilitar todos los PictureBoxes
+            foreach (PictureBox pb in pictureBoxes)
             {
-                // Se agregan aquí las imágenes de ajolotes (MAjolote1, MAjolote2, etc.)
-            };
+                pb.Enabled = true;
+            }
 
-            // Mezclar aleatoriamente las imágenes utilizando el algoritmo de Fisher-Yates
+            // Revolver lista de nombres de imágenes
             Random rng = new Random();
-            int n = images.Count;
+            int n = imageNames.Count;
             while (n > 1)
             {
                 n--;
                 int k = rng.Next(n + 1);
-                Image value = images[k];
-                images[k] = images[n];
-                images[n] = value;
+                string value = imageNames[k];
+                imageNames[k] = imageNames[n];
+                imageNames[n] = value;
             }
 
-            // Asignar las imágenes mezcladas a los PictureBox en el formulario
-            for (int i = 0; i < images.Count; i++)
+            // Asignar una imagen a cada PictureBox y mostrar la imagen de la carta boca abajo
+            for (int i = 0; i < pictureBoxes.Count; i++)
             {
-                PictureBox pictureBox = this.Controls.Find("pBox" + (i + 1), true).FirstOrDefault() as PictureBox;
-                if (pictureBox != null)
-                    pictureBox.Tag = images[i]; // Utilizamos el Tag del PictureBox para almacenar la imagen
+                imageDict[pictureBoxes[i]] = imageNames[i];
+                pictureBoxes[i].Image = Properties.Resources.AtrasMemorama;
             }
+
+            // Reiniciar selecciones del usuario
+            firstPick = null;
+            secondPick = null;
         }
 
-        private void PictureBox_Click(object sender, EventArgs e)
+        private void Pb_Click(object sender, EventArgs e)
         {
-            // Evento de clic para los PictureBox
+            // Obtener el PictureBox que fue seleccionado
+            PictureBox pb = (PictureBox)sender;
 
-            PictureBox clickedBox = sender as PictureBox;
-
-            // Si el PictureBox ya está abierto (mostrando la imagen del ajolote), no hacer nada al hacer clic
-            if (clickedBox != null && clickedBox.Image != Properties.Resources.AtrasMemorama)
+            // Si es la primera selección del usuario
+            if (firstPick == null)
             {
-                return;
-            }
+                firstPick = pb;
 
-            if (firstBox == null)
-            {
-                // Si no hay ningún PictureBox seleccionado previamente, almacenar este como el primer PictureBox seleccionado
-                firstBox = clickedBox;
-                firstBox.Image = firstBox.Tag as Image; // Mostrar la imagen del ajolote
-            }
-            else if (secondBox == null && clickedBox != firstBox)
-            {
-                // Si ya se seleccionó un PictureBox y este no es igual al primero, almacenar este como el segundo PictureBox seleccionado
-                secondBox = clickedBox;
-                secondBox.Image = secondBox.Tag as Image; // Mostrar la imagen del ajolote
-
-                // Comprobar si las imágenes de ambos PictureBox seleccionados son iguales (coinciden)
-                if (firstBox.Image != null && firstBox.Image.Equals(secondBox.Image))
+                // Mostrar la imagen correspondiente al nombre almacenado en el diccionario
+                switch (imageDict[pb])
                 {
-                    // Si las imágenes coinciden, mostrar un mensaje y limpiar las selecciones
-                    MessageBox.Show("Información sobre el ajolote de la imagen");
-                    firstBox = null;
-                    secondBox = null;
+                    case "MAjolote1":
+                        pb.Image = Properties.Resources.MAjolote1;
+                        break;
+                    case "MAjolote2":
+                        pb.Image = Properties.Resources.MAjolote2;
+                        break;
+                    case "MAjolote3":
+                        pb.Image = Properties.Resources.MAjolote3;
+                        break;
+                    case "MAjolote4":
+                        pb.Image = Properties.Resources.MAjolote4;
+                        break;
+                    case "MAjolote5":
+                        pb.Image = Properties.Resources.MAjolote5;
+                        break;
+                    case "MAjolote6":
+                        pb.Image = Properties.Resources.MAjolote6;
+                        break;
+                }
+            }
+            // Si es la segunda selección del usuario
+            else if (secondPick == null && pb != firstPick)
+            {
+                secondPick = pb;
+
+                // Mostrar la imagen correspondiente al nombre almacenado en el diccionario
+                switch (imageDict[pb])
+                {
+                    case "MAjolote1":
+                        pb.Image = Properties.Resources.MAjolote1;
+                        break;
+                    case "MAjolote2":
+                        pb.Image = Properties.Resources.MAjolote2;
+                        break;
+                    case "MAjolote3":
+                        pb.Image = Properties.Resources.MAjolote3;
+                        break;
+                    case "MAjolote4":
+                        pb.Image = Properties.Resources.MAjolote4;
+                        break;
+                    case "MAjolote5":
+                        pb.Image = Properties.Resources.MAjolote5;
+                        break;
+                    case "MAjolote6":
+                        pb.Image = Properties.Resources.MAjolote6;
+                        break;
+                }
+
+                // Verificar si las imágenes son iguales
+                if (imageDict[firstPick] == imageDict[secondPick])
+                {
+                    // Mostrar información sobre la imagen encontrada
+                    switch (imageDict[firstPick])
+                    {
+                        case "MAjolote1":
+                            MessageBox.Show("Ajolote Gris Parduzco");
+                            break;
+                        case "MAjolote2":
+                            MessageBox.Show("Ajolote Blanco con Branquias Rosadas");
+                            break;
+                        case "MAjolote3":
+                            MessageBox.Show("Ajolote Leucístico");
+                            break;
+                        case "MAjolote4":
+                            MessageBox.Show("Ajolote Albino");
+                            break;
+                        case "MAjolote5":
+                            MessageBox.Show("Ajolote Dorado");
+                            break;
+                        case "MAjolote6":
+                            MessageBox.Show("Ajolote Melanístico");
+                            break;
+                    }
+
+                    // Deshabilitar los PictureBoxes que fueron seleccionados correctamente
+                    firstPick.Enabled = false;
+                    secondPick.Enabled = false;
+
+                    // Reiniciar selecciones del usuario
+                    firstPick = null;
+                    secondPick = null;
                 }
                 else
                 {
-                    // Si las imágenes no coinciden, ocultar las imágenes después de un corto retraso (1 segundo)
-                    var timer = new Timer();
-                    timer.Interval = 1000;
-                    timer.Tick += (s, args) =>
+                    // Esperar un momento antes de voltear las cartas de nuevo
+                    Task.Delay(1000).ContinueWith(t =>
                     {
-                        firstBox.Image = Properties.Resources.AtrasMemorama;
-                        secondBox.Image = Properties.Resources.AtrasMemorama;
-                        firstBox = null;
-                        secondBox = null;
-                        timer.Stop();
-                    };
-                    timer.Start();
+                        firstPick.Image = Properties.Resources.AtrasMemorama;
+                        secondPick.Image = Properties.Resources.AtrasMemorama;
+
+                        // Reiniciar selecciones del usuario
+                        firstPick = null;
+                        secondPick = null;
+                    }, TaskScheduler.FromCurrentSynchronizationContext());
                 }
             }
         }
 
-        private void btnRegresar_Click(object sender, EventArgs e)
+        private void btnNuevo_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("");
-            Application.Exit();
+            btnJugar_Click(sender, e);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -126,6 +226,13 @@ namespace Axolotl_UN_Proyect
             FormPrincipal principal = new FormPrincipal();
             this.Hide();
             principal.Show();
+        }
+
+        private void btnAvanzar_Click(object sender, EventArgs e)
+        {
+            AjoloteWord3 ajWord3 = new AjoloteWord3();
+            this.Hide();
+            ajWord3.Show();
         }
     }
 }

@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Axolotl_UN_Proyect
 {
-    public partial class AjoloteCare4 : Form
+    public partial class AjoloteWord3 : Form
     {
-        public AjoloteCare4()
+        public AjoloteWord3()
         {
             InitializeComponent();
         }
 
-        private void btnRegresar_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            AjoloteCare principal = new AjoloteCare();
+            FormPrincipal principal = new FormPrincipal();
             this.Hide();
             principal.Show();
         }
