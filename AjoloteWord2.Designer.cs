@@ -40,7 +40,7 @@
             this.pBox6 = new System.Windows.Forms.PictureBox();
             this.pBox11 = new System.Windows.Forms.PictureBox();
             this.pBox5 = new System.Windows.Forms.PictureBox();
-            this.btnRegresar = new System.Windows.Forms.Button();
+            this.btnAvanzar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -191,20 +191,20 @@
             this.pBox5.TabIndex = 8;
             this.pBox5.TabStop = false;
             // 
-            // btnRegresar
+            // btnAvanzar
             // 
-            this.btnRegresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnRegresar.FlatAppearance.BorderSize = 0;
-            this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegresar.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegresar.ForeColor = System.Drawing.Color.White;
-            this.btnRegresar.Location = new System.Drawing.Point(1031, 13);
-            this.btnRegresar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(127, 45);
-            this.btnRegresar.TabIndex = 12;
-            this.btnRegresar.Text = "Salir";
-            this.btnRegresar.UseVisualStyleBackColor = false;
+            this.btnAvanzar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnAvanzar.FlatAppearance.BorderSize = 0;
+            this.btnAvanzar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAvanzar.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAvanzar.ForeColor = System.Drawing.Color.White;
+            this.btnAvanzar.Location = new System.Drawing.Point(1031, 13);
+            this.btnAvanzar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAvanzar.Name = "btnAvanzar";
+            this.btnAvanzar.Size = new System.Drawing.Size(127, 45);
+            this.btnAvanzar.TabIndex = 12;
+            this.btnAvanzar.Text = "Avanzar";
+            this.btnAvanzar.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
@@ -213,13 +213,14 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(1031, 66);
+            this.button1.Location = new System.Drawing.Point(1031, 337);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 45);
+            this.button1.Size = new System.Drawing.Size(127, 59);
             this.button1.TabIndex = 13;
             this.button1.Text = "Regresar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnNuevo
             // 
@@ -228,7 +229,7 @@
             this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNuevo.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevo.ForeColor = System.Drawing.Color.White;
-            this.btnNuevo.Location = new System.Drawing.Point(1031, 429);
+            this.btnNuevo.Location = new System.Drawing.Point(1031, 256);
             this.btnNuevo.Margin = new System.Windows.Forms.Padding(4);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(127, 59);
@@ -256,7 +257,7 @@
             this.btnJugar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJugar.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnJugar.ForeColor = System.Drawing.Color.White;
-            this.btnJugar.Location = new System.Drawing.Point(1031, 350);
+            this.btnJugar.Location = new System.Drawing.Point(1031, 175);
             this.btnJugar.Margin = new System.Windows.Forms.Padding(4);
             this.btnJugar.Name = "btnJugar";
             this.btnJugar.Size = new System.Drawing.Size(127, 59);
@@ -276,7 +277,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnRegresar);
+            this.Controls.Add(this.btnAvanzar);
             this.Controls.Add(this.pBox12);
             this.Controls.Add(this.pBox6);
             this.Controls.Add(this.pBox11);
@@ -324,7 +325,7 @@
         private System.Windows.Forms.PictureBox pBox6;
         private System.Windows.Forms.PictureBox pBox11;
         private System.Windows.Forms.PictureBox pBox5;
-        private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.Button btnAvanzar;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.Label label1;

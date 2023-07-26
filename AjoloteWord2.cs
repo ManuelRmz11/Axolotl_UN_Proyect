@@ -220,5 +220,12 @@ namespace Axolotl_UN_Proyect
         {
             btnJugar_Click(sender, e);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormPrincipal principal = new FormPrincipal();
+            this.Hide();
+            principal.Show();
+        }
     }
 }
