@@ -27,13 +27,13 @@ namespace Axolotl_UN_Proyect
         {
             // Configuración del primer temporizador
             timer = new Timer();
-            timer.Interval = 10000;  // 10 segundos
+            timer.Interval = 20000;  // 20 segundos
             timer.Tick += Timer_Tick; // Evento que se ejecutará cada vez que pase el tiempo establecido
             timer.Start(); // Iniciar el temporizador
 
             // Configuración del segundo temporizador
             timer2 = new Timer();
-            timer2.Interval = 20000;  // 20 segundos
+            timer2.Interval = 35000;  // 35 segundos
             timer2.Tick += Timer2_Tick; // Evento que se ejecutará cada vez que pase el tiempo establecido
             timer2.Start(); // Iniciar el temporizador
         }
