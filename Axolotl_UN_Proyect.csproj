@@ -83,6 +83,24 @@
     <Compile Include="AjoloteCare5.Designer.cs">
       <DependentUpon>AjoloteCare5.cs</DependentUpon>
     </Compile>
+    <Compile Include="AjoloteCare6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteCare6.Designer.cs">
+      <DependentUpon>AjoloteCare6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteCare7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteCare7.Designer.cs">
+      <DependentUpon>AjoloteCare7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteCare8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteCare8.Designer.cs">
+      <DependentUpon>AjoloteCare8.cs</DependentUpon>
+    </Compile>
     <Compile Include="AjoloteWord.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +112,12 @@
     </Compile>
     <Compile Include="AjoloteWord2.Designer.cs">
       <DependentUpon>AjoloteWord2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteWord3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteWord3.Designer.cs">
+      <DependentUpon>AjoloteWord3.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -123,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AjoloteWord2.resx">
       <DependentUpon>AjoloteWord2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoloteWord3.resx">
+      <DependentUpon>AjoloteWord3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
