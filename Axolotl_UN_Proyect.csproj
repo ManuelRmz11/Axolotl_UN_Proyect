@@ -53,29 +53,35 @@
     <Compile Include="AjoloteAdventures.Designer.cs">
       <DependentUpon>AjoloteAdventures.cs</DependentUpon>
     </Compile>
-    <Compile Include="AjoloteAdventures01.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AjoloteAdventures01.Designer.cs">
-      <DependentUpon>AjoloteAdventures01.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AjoloteAdventures02.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AjoloteAdventures02.Designer.cs">
-      <DependentUpon>AjoloteAdventures02.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AjoloteAdventures03.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AjoloteAdventures03.Designer.cs">
-      <DependentUpon>AjoloteAdventures03.cs</DependentUpon>
-    </Compile>
     <Compile Include="AjoloteCare.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AjoloteCare.Designer.cs">
       <DependentUpon>AjoloteCare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteCare2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteCare2.Designer.cs">
+      <DependentUpon>AjoloteCare2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteCare3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteCare3.Designer.cs">
+      <DependentUpon>AjoloteCare3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteCare4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteCare4.Designer.cs">
+      <DependentUpon>AjoloteCare4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoloteCare5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteCare5.Designer.cs">
+      <DependentUpon>AjoloteCare5.cs</DependentUpon>
     </Compile>
     <Compile Include="AjoloteWord.cs">
       <SubType>Form</SubType>
@@ -100,17 +106,11 @@
     <EmbeddedResource Include="AjoloteAdventures.resx">
       <DependentUpon>AjoloteAdventures.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AjoloteAdventures01.resx">
-      <DependentUpon>AjoloteAdventures01.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AjoloteAdventures02.resx">
-      <DependentUpon>AjoloteAdventures02.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AjoloteAdventures03.resx">
-      <DependentUpon>AjoloteAdventures03.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="AjoloteCare.resx">
       <DependentUpon>AjoloteCare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoloteCare2.resx">
+      <DependentUpon>AjoloteCare2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AjoloteWord.resx">
       <DependentUpon>AjoloteWord.cs</DependentUpon>
@@ -175,14 +175,31 @@
     <None Include="Resources\Ajolote3.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <COMReference Include="AxWMPLib">
-      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>aximp</WrapperTool>
-      <Isolated>False</Isolated>
-    </COMReference>
+    <None Include="Resources\FondoAjoloteWord2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AtrasMemorama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoAjoloteWord21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAjolote1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAjolote2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAjolote3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAjolote4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAjolote5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAjolote6.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

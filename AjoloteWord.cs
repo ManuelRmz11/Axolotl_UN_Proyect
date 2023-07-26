@@ -72,14 +72,14 @@ namespace Axolotl_UN_Proyect
             "para consumo humano y la introducción de especies exóticas" +
             "en su ambiente1. Para proteger al ajolote y su hábitat natural,\n" +
             "se están llevando a cabo diversas medidas de\n" +
-            " conservación. Por ejemplo, se está trabajando \n" +
+            "conservación. Por ejemplo, se está trabajando \n" +
             "en la chinampa refugio en Xochimilco para proporcionar \n" +
             "canales aislados y agua con un mayor grado de limpieza.\n" +
-            " También se está trabajando en refugios temporales fuera de\n" +
-            " su hábitat natural, como en la Cantera Oriente de la UNAM.\n" +
-            " Además, existen programas estratégicos como el Programa\n" +
-            " de Acción para la Conservación de las Especies (PACE)\n" +
-            " y la Unidad de Manejo de Vida Silvestre (UMA), \n" +
+            "También se está trabajando en refugios temporales fuera de\n" +
+            "su hábitat natural, como en la Cantera Oriente de la UNAM.\n" +
+            "Además, existen programas estratégicos como el Programa\n" +
+            "de Acción para la Conservación de las Especies (PACE)\n" +
+            "y la Unidad de Manejo de Vida Silvestre (UMA), \n" +
             "cuyos objetivos principales son prevenir y \n" +
             "reducir la vulnerabilidad en las especies \n" +
             "y sus hábitats y asegurar su conservación"));
