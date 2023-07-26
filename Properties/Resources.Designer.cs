@@ -173,6 +173,16 @@ namespace Axolotl_UN_Proyect.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FondoAjoloteWord3 {
+            get {
+                object obj = ResourceManager.GetObject("FondoAjoloteWord3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Font1 {
             get {
                 object obj = ResourceManager.GetObject("Font1", resourceCulture);
@@ -206,6 +216,16 @@ namespace Axolotl_UN_Proyect.Properties {
         internal static System.Drawing.Bitmap jpg5 {
             get {
                 object obj = ResourceManager.GetObject("jpg5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LogoAjoloteWord {
+            get {
+                object obj = ResourceManager.GetObject("LogoAjoloteWord", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

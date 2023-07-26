@@ -117,18 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value> El ajolote es un animal muy importante en la cultura
- mexicana y su imagen es utilizada como un símbolo 
-de esperanza para la conservación de los ecosistemas
-en el país. En la mitología azteca, el ajolote representa a 
-Xólotl, el dios del ocaso, protector del fuego y uno 
-de los señores del inframundo. Su abundancia en
-los canales del lago de Texcoco lo convirtió en una 
-fuente de alimento para los habitantes del Valle de México, 
-quienes lo consideraban un verdadero manjar. En la 
-actualidad, el ajolote sigue siendo un símbolo de gran 
-importancia para los mexicanos y su imagen 
-ha sido adaptada como el emoji oficial de la Ciudad de México.</value>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>El ajolote (Ambystoma mexicanum) ocupa un lugar especial en la cultura mexicana, siendo un símbolo icónico de la región y un elemento importante en la mitología y la historia del país. Para los antiguos mexicas, el ajolote estaba asociado con el dios Xolotl, el hermano gemelo de Quetzalcóatl, deidad del viento y el conocimiento. Según la leyenda, Xolotl transformó a los ajolotes en esta especie para escapar de los sacrificios humanos y vivir en los lagos y canales de Xochimilco, donde aún se les puede encontrar en la actualidad. En la época prehispánica, los aztecas apreciaban a estos pequeños anfibios como un signo de transformación y renacimiento, vinculándolos con la regeneración y la vida después de la muerte. La preservación del ajolote en la cultura mexicana continúa hasta nuestros días, siendo un símbolo de identidad y conexión con la rica historia y el patrimonio natural de México.</value>
   </data>
 </root>

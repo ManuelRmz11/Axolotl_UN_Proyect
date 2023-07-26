@@ -243,5 +243,11 @@
   <ItemGroup>
     <None Include="Resources\Ac42.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoAjoloteWord3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoAjoloteWord.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

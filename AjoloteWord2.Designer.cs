@@ -205,6 +205,7 @@
             this.btnAvanzar.TabIndex = 12;
             this.btnAvanzar.Text = "Avanzar";
             this.btnAvanzar.UseVisualStyleBackColor = false;
+            this.btnAvanzar.Click += new System.EventHandler(this.btnAvanzar_Click);
             // 
             // button1
             // 

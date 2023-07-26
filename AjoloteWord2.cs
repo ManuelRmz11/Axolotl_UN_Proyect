@@ -227,5 +227,12 @@ namespace Axolotl_UN_Proyect
             this.Hide();
             principal.Show();
         }
+
+        private void btnAvanzar_Click(object sender, EventArgs e)
+        {
+            AjoloteWord3 ajWord3 = new AjoloteWord3();
+            this.Hide();
+            ajWord3.Show();
+        }
     }
 }
