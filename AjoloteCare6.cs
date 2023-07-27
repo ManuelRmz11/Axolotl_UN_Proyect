@@ -69,12 +69,15 @@ namespace Axolotl_UN_Proyect
 
         private void btnregresar_Click(object sender, EventArgs e)
         {
-
+            AjoloteCare principal = new AjoloteCare();
+            this.Hide();
+            principal.Show();
         }
 
         private void btnsalir_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("GRACIAS POR LLEGAR HASTA EL FINAL (F._.F)", "CERRANDO");
+            Application.Exit();
         }
     }
 }
