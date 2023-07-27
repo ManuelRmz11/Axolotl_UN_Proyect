@@ -52,7 +52,7 @@ namespace Axolotl_UN_Proyect
 
                 "Compatibilidad:\r\n" +
                 "\r\nLos ajolotes son animales solitarios, \r\n" +
-                "}así que mantén un solo ajolote por acuario \r\n" +
+                "así que mantén un solo ajolote por acuario \r\n" +
                 "para evitar peleas y estrés." ,
 
                 "Veterinario especializado: \r\n" +
