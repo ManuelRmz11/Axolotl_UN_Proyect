@@ -178,6 +178,9 @@
     <EmbeddedResource Include="AjoloteCare4.resx">
       <DependentUpon>AjoloteCare4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AjoloteCare5.resx">
+      <DependentUpon>AjoloteCare5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AjoloteWord.resx">
       <DependentUpon>AjoloteWord.cs</DependentUpon>
     </EmbeddedResource>
