@@ -21,29 +21,29 @@ namespace Axolotl_UN_Proyect
         {
             Random random = new Random();
 
-            int dado1 = random.Next(1, 7);
-            int dado2 = random.Next(1, 7);
-            int dado3 = random.Next(1, 7);
+            int ajolote1 = random.Next(1, 7);
+            int ajolote2 = random.Next(1, 7);
+            int ajolote3 = random.Next(1, 7);
 
 
-            txtd1.Text = dado1.ToString();
-            txtd2.Text = dado2.ToString();
-            txtd3.Text = dado3.ToString();
+            txtd1.Text = ajolote1.ToString();
+            txtd2.Text = ajolote2.ToString();
+            txtd3.Text = ajolote3.ToString();
 
 
-            picdado1.Image = GetDiceImage(dado1);
-            picdado2.Image = GetDiceImage(dado2);
-            picdado3.Image = GetDiceImage(dado3);
+            picAjol1.Image = GetDiceImage(ajolote1);
+            picAjol2.Image = GetDiceImage(ajolote2);
+            picAjol3.Image = GetDiceImage(ajolote3);
 
 
-            int sumaDados = dado1 + dado2 + dado3;
-            if (sumaDados == 7 || sumaDados == 11 || (dado1 == dado2 && dado1 == dado3))
+            int sumaAjolote = ajolote1 + ajolote2 + ajolote3;
+            if (sumaAjolote == 7 || sumaAjolote == 11 || (ajolote1 == ajolote2 && ajolote1 == ajolote3))
             {
-                lbldado.Text = "¡GANASTE!";
+                lblAjolote.Text = "¡GANASTE!, Gracias por jugar";
             }
             else
             {
-                lbldado.Text = "Sigue participando!";
+                lblAjolote.Text = "Sigue participando!";
             }
         }
 
@@ -54,17 +54,17 @@ namespace Axolotl_UN_Proyect
             txtd3.Clear();
             txtd1.Focus();
 
-            lbldado.Text = null;
-    
-            picdado1.Image = Image.FromFile("ajolote.gif");
-            picdado2.Image = Image.FromFile("ajolote.gif");
-            picdado3.Image = Image.FromFile("ajolote.gif");
+            lblAjolote.Text = null;
+
+            picAjol1.Image = Properties.Resources.ajolote;
+            picAjol2.Image = Properties.Resources.ajolote;
+            picAjol3.Image = Properties.Resources.ajolote;
         }
 
         private Image GetDiceImage(int value)
         {
-            string imageName = "care" + value + ".png";
-                return Image.FromFile(imageName);
+            string imageName = "care" + value;
+            return (Image)Properties.Resources.ResourceManager.GetObject(imageName);
         }
 
         private void btnregresar_Click(object sender, EventArgs e)

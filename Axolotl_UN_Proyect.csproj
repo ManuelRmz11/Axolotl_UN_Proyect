@@ -351,5 +351,8 @@
   <ItemGroup>
     <None Include="Resources\Aclogo.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ac6.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
