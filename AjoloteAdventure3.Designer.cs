@@ -48,6 +48,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Muy bien, encontraste el boton para avanzar :)\r\n\r\nEn este apartado observaremos c" +
     "omo es su habitat\r\nen general y algunos detalles en particular del mismo.";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -55,11 +56,12 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Lucida Bright", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 205);
+            this.label2.Location = new System.Drawing.Point(494, 193);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(578, 132);
             this.label2.TabIndex = 1;
             this.label2.Text = resources.GetString("label2.Text");
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnRegresar
             // 
