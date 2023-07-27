@@ -63,7 +63,7 @@ namespace Axolotl_UN_Proyect
 
         private Image GetDiceImage(int value)
         {
-            string imageName = "cara" + value + ".png";
+            string imageName = "care" + value + ".png";
                 return Image.FromFile(imageName);
         }
 

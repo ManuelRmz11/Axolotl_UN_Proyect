@@ -243,6 +243,16 @@ namespace Axolotl_UN_Proyect.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Aclogo {
+            get {
+                object obj = ResourceManager.GetObject("Aclogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ajolote {
             get {
                 object obj = ResourceManager.GetObject("ajolote", resourceCulture);
@@ -276,6 +286,66 @@ namespace Axolotl_UN_Proyect.Properties {
         internal static System.Drawing.Bitmap AtrasMemorama {
             get {
                 object obj = ResourceManager.GetObject("AtrasMemorama", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap care1 {
+            get {
+                object obj = ResourceManager.GetObject("care1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap care2 {
+            get {
+                object obj = ResourceManager.GetObject("care2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap care3 {
+            get {
+                object obj = ResourceManager.GetObject("care3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap care4 {
+            get {
+                object obj = ResourceManager.GetObject("care4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap care5 {
+            get {
+                object obj = ResourceManager.GetObject("care5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap care6 {
+            get {
+                object obj = ResourceManager.GetObject("care6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

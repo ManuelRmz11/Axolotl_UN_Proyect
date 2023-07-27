@@ -330,5 +330,26 @@
   <ItemGroup>
     <None Include="Resources\ajolote.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\care6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\care5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\care4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\care3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\care2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\care1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aclogo.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

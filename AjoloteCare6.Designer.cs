@@ -41,10 +41,14 @@
             this.btnregresar = new System.Windows.Forms.Button();
             this.btnlanzar = new System.Windows.Forms.Button();
             this.picdado1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picdado3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picdado2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picdado1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -196,6 +200,28 @@
             this.picdado1.TabIndex = 118;
             this.picdado1.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::Axolotl_UN_Proyect.Properties.Resources._5ece9335_e050_4d3e_9b5c_73b919d90140;
+            this.pictureBox1.Location = new System.Drawing.Point(786, -5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(391, 553);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 127;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::Axolotl_UN_Proyect.Properties.Resources._5ece9335_e050_4d3e_9b5c_73b919d90140;
+            this.pictureBox2.Location = new System.Drawing.Point(-4, -5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(391, 553);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 128;
+            this.pictureBox2.TabStop = false;
+            // 
             // AjoloteCare6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -203,6 +229,8 @@
             this.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources.Ac5f;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1173, 547);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtd3);
             this.Controls.Add(this.txtd2);
@@ -218,6 +246,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picdado2)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picdado1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -238,5 +268,7 @@
         private System.Windows.Forms.Button btnregresar;
         private System.Windows.Forms.Button btnlanzar;
         private System.Windows.Forms.PictureBox picdado1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
