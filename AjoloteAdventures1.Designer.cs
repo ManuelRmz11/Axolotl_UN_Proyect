@@ -42,13 +42,15 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(195, 61);
+            this.label1.Location = new System.Drawing.Point(146, 50);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(984, 164);
+            this.label1.Size = new System.Drawing.Size(797, 136);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nos alegra que hayas aceptado integrarte en esta aventura :)\r\n\r\nA continuacion ve" +
     "remos algunos detalles e informacion que \r\nnos servira para aprender y conocer m" +
     "as del \"Ajolote\".";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -56,9 +58,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Lucida Calligraphy", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(471, 9);
+            this.label2.Location = new System.Drawing.Point(353, 7);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(428, 52);
+            this.label2.Size = new System.Drawing.Size(346, 41);
             this.label2.TabIndex = 1;
             this.label2.Text = "Excelente decision";
             // 
@@ -71,10 +74,11 @@
             this.btnAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAceptar.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
-            this.btnAceptar.Location = new System.Drawing.Point(1208, 623);
+            this.btnAceptar.Location = new System.Drawing.Point(906, 506);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnAceptar.Size = new System.Drawing.Size(172, 38);
+            this.btnAceptar.Size = new System.Drawing.Size(129, 31);
             this.btnAceptar.TabIndex = 3;
             this.btnAceptar.Text = "Continuar";
             this.btnAceptar.UseVisualStyleBackColor = false;
@@ -90,9 +94,10 @@
             this.btnRegresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(170)))));
             this.btnRegresar.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegresar.ForeColor = System.Drawing.Color.White;
-            this.btnRegresar.Location = new System.Drawing.Point(1386, 623);
+            this.btnRegresar.Location = new System.Drawing.Point(1040, 506);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(142, 37);
+            this.btnRegresar.Size = new System.Drawing.Size(106, 30);
             this.btnRegresar.TabIndex = 2;
             this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = false;
@@ -104,24 +109,26 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(195, 623);
+            this.label3.Location = new System.Drawing.Point(273, 506);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(636, 41);
+            this.label3.Size = new System.Drawing.Size(515, 34);
             this.label3.TabIndex = 4;
             this.label3.Text = "Da click en \"Continuar\" para seguir :)";
             // 
             // AjoloteAdventures1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1564, 673);
+            this.ClientSize = new System.Drawing.Size(1155, 547);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AjoloteAdventures1";
             this.Text = "|";
             this.Load += new System.EventHandler(this.AjoloteAdventures1_Load);
