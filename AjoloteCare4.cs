@@ -24,12 +24,26 @@ namespace Axolotl_UN_Proyect
             principal.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn3_Click(object sender, EventArgs e)
         {
+            // Opción seleccionada es correcta.
+            MessageBox.Show("¡Respuesta correcta!","Acertaste");
 
             AjoloteCare5 principal = new AjoloteCare5();
             this.Hide();
             principal.Show();
+        }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            // Opción seleccionada es incorrecta.
+            MessageBox.Show("Respuesta incorrecta. Inténtalo nuevamente.", "Que mal");
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            // Opción seleccionada es incorrecta.
+            MessageBox.Show("Respuesta incorrecta. Inténtalo nuevamente.", "Que mal");
         }
     }
 }

@@ -28,37 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegresar = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(81)))), ((int)(((byte)(136)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(170)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(15, 14);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 30);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Avanzar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -103,35 +83,38 @@
             this.btnRegresar.UseVisualStyleBackColor = false;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
-            // button2
+            // btn1
             // 
-            this.button2.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources.Ac4;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(12, 159);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 274);
-            this.button2.TabIndex = 12;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn1.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources.Ac4;
+            this.btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn1.Location = new System.Drawing.Point(12, 159);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(200, 274);
+            this.btn1.TabIndex = 12;
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
-            // button3
+            // btn3
             // 
-            this.button3.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources.Ac42;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Location = new System.Drawing.Point(543, 159);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 274);
-            this.button3.TabIndex = 13;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn3.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources.Ac42;
+            this.btn3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn3.Location = new System.Drawing.Point(543, 159);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(200, 274);
+            this.btn3.TabIndex = 13;
+            this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
-            // button4
+            // btn2
             // 
-            this.button4.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources.Ac41;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Location = new System.Drawing.Point(284, 159);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 274);
-            this.button4.TabIndex = 14;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn2.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources.Ac41;
+            this.btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn2.Location = new System.Drawing.Point(284, 159);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(200, 274);
+            this.btn2.TabIndex = 14;
+            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // label2
             // 
@@ -182,10 +165,9 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn2);
+            this.Controls.Add(this.btn3);
+            this.Controls.Add(this.btn1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresar);
@@ -199,14 +181,12 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnRegresar;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btn2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
