@@ -92,5 +92,12 @@ namespace Axolotl_UN_Proyect
             this.Hide();
             Form1.Show();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            AjoloteAdventures1 Form1 = new AjoloteAdventures1();
+            this.Hide();
+            Form1.Show();
+        }
     }
 }

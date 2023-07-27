@@ -49,7 +49,7 @@
             this.btnCabeza.CausesValidation = false;
             this.btnCabeza.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCabeza.Location = new System.Drawing.Point(646, 199);
-            this.btnCabeza.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCabeza.Margin = new System.Windows.Forms.Padding(2);
             this.btnCabeza.Name = "btnCabeza";
             this.btnCabeza.Size = new System.Drawing.Size(15, 16);
             this.btnCabeza.TabIndex = 0;
@@ -62,7 +62,7 @@
             this.btnPatas.CausesValidation = false;
             this.btnPatas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPatas.Location = new System.Drawing.Point(755, 427);
-            this.btnPatas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPatas.Margin = new System.Windows.Forms.Padding(2);
             this.btnPatas.Name = "btnPatas";
             this.btnPatas.Size = new System.Drawing.Size(15, 16);
             this.btnPatas.TabIndex = 1;
@@ -75,7 +75,7 @@
             this.btnParpados.CausesValidation = false;
             this.btnParpados.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnParpados.Location = new System.Drawing.Point(580, 276);
-            this.btnParpados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnParpados.Margin = new System.Windows.Forms.Padding(2);
             this.btnParpados.Name = "btnParpados";
             this.btnParpados.Size = new System.Drawing.Size(15, 16);
             this.btnParpados.TabIndex = 2;
@@ -92,7 +92,7 @@
             this.btnAceptar.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
             this.btnAceptar.Location = new System.Drawing.Point(913, 506);
-            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnAceptar.Size = new System.Drawing.Size(129, 31);
@@ -112,12 +112,13 @@
             this.btnRegresar.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegresar.ForeColor = System.Drawing.Color.White;
             this.btnRegresar.Location = new System.Drawing.Point(1046, 506);
-            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(106, 30);
             this.btnRegresar.TabIndex = 4;
             this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = false;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // btnBranqueas
             // 
@@ -125,7 +126,7 @@
             this.btnBranqueas.CausesValidation = false;
             this.btnBranqueas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBranqueas.Location = new System.Drawing.Point(500, 323);
-            this.btnBranqueas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBranqueas.Margin = new System.Windows.Forms.Padding(2);
             this.btnBranqueas.Name = "btnBranqueas";
             this.btnBranqueas.Size = new System.Drawing.Size(15, 16);
             this.btnBranqueas.TabIndex = 6;
@@ -138,7 +139,7 @@
             this.btnHocico.CausesValidation = false;
             this.btnHocico.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHocico.Location = new System.Drawing.Point(734, 301);
-            this.btnHocico.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHocico.Margin = new System.Windows.Forms.Padding(2);
             this.btnHocico.Name = "btnHocico";
             this.btnHocico.Size = new System.Drawing.Size(15, 16);
             this.btnHocico.TabIndex = 7;
@@ -151,7 +152,7 @@
             this.button1.CausesValidation = false;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(703, 223);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(15, 16);
             this.button1.TabIndex = 8;
@@ -176,7 +177,7 @@
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Location = new System.Drawing.Point(9, 479);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(56, 61);
             this.button2.TabIndex = 10;
@@ -188,7 +189,7 @@
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.Location = new System.Drawing.Point(76, 479);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(56, 61);
             this.button3.TabIndex = 11;
@@ -206,7 +207,7 @@
             this.button5.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Transparent;
             this.button5.Location = new System.Drawing.Point(123, 137);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(87, 30);
             this.button5.TabIndex = 12;
@@ -234,7 +235,7 @@
             this.Controls.Add(this.btnPatas);
             this.Controls.Add(this.btnCabeza);
             this.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AjoloteAdventures2";
             this.Text = "AjoloteAdventures2";
             this.Load += new System.EventHandler(this.AjoloteAdventures2_Load);

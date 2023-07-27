@@ -53,6 +53,12 @@
     <Compile Include="AjoloteAdventure3.Designer.cs">
       <DependentUpon>AjoloteAdventure3.cs</DependentUpon>
     </Compile>
+    <Compile Include="AjoloteAdventure4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoloteAdventure4.Designer.cs">
+      <DependentUpon>AjoloteAdventure4.cs</DependentUpon>
+    </Compile>
     <Compile Include="AjoloteAdventures.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +153,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AjoloteAdventure3.resx">
       <DependentUpon>AjoloteAdventure3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoloteAdventure4.resx">
+      <DependentUpon>AjoloteAdventure4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AjoloteAdventures.resx">
       <DependentUpon>AjoloteAdventures.cs</DependentUpon>
