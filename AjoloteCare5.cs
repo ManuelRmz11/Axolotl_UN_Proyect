@@ -13,6 +13,11 @@ namespace Axolotl_UN_Proyect
     public partial class AjoloteCare5 : Form
     {
         private string[] textos = { "Texto 1", "Texto 2", "Texto 3", "Texto 4", "Texto 5" };
+
+        private Image[] images = { Properties.Resources.Ac4, // Replace "Image1" with your image resources' names
+                                   // ... (add other images corresponding to the text entries)
+                                 };
+
         private int currentIndex = 0;
         private Timer timer;
 
@@ -31,6 +36,10 @@ namespace Axolotl_UN_Proyect
             // Actualiza el texto del label con el texto actual y luego incrementa el índice para el siguiente texto
             label1.Text = textos[currentIndex];
 
+            // Actualiza la imagen del PictureBox con la imagen actual
+            pictureBox1.Image = images[currentIndex];
+
+
             // Incrementa el índice asegurándose de que no exceda la longitud del arreglo
             currentIndex = (currentIndex + 1) % textos.Length;
         }
@@ -39,8 +48,9 @@ namespace Axolotl_UN_Proyect
             // Detiene el Timer antes de regresar a la pantalla anterior (si es necesario)
             timer.Stop();
 
-            // Agrega aquí el código para regresar a la pantalla anterior
-
+            AjoloteCare principal = new AjoloteCare();
+            this.Hide();
+            principal.Show();
         }
     }
 }
