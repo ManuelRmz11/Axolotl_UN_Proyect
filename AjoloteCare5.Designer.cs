@@ -59,7 +59,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calisto MT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.ForeColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(7, 129);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(570, 252);
@@ -70,7 +70,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::Axolotl_UN_Proyect.Properties.Resources._5ece9335_e050_4d3e_9b5c_73b919d90140;
+            this.pictureBox1.Image = global::Axolotl_UN_Proyect.Properties.Resources.Ac5;
             this.pictureBox1.Location = new System.Drawing.Point(776, -3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(391, 553);
@@ -101,6 +101,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources.Ac5f;
             this.ClientSize = new System.Drawing.Size(1173, 547);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
