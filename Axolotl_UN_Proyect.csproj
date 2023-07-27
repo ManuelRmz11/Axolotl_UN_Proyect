@@ -327,5 +327,8 @@
   <ItemGroup>
     <None Include="Resources\Ac510.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ajolote.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
