@@ -12,11 +12,13 @@ namespace Axolotl_UN_Proyect
 {
     public partial class AjoloteCare5 : Form
     {
-        private string[] textos = { "Hábitat adecuado: " +
-                "El ajolote necesita un acuario espacioso con " +
-                "agua limpia y bien oxigenada. Asegúrate de proporcionar" +
-                " suficiente espacio para que nade y se sienta cómodo. Un acuario " +
-                "de unos 40 litros es un buen punto de partida para un solo ajolote.", "Texto 2", "Texto 3", "Texto 4", "Texto 5" };
+        private string[] textos = { "Hábitat adecuado:\r\n " +
+                "\r\nEl ajolote necesita un acuario espacioso con\r\n " +
+                "agua limpia y bien oxigenada. Asegúrate de proporcionar\r\n" +
+                " suficiente espacio para que nade y se sienta cómodo. Un acuario\r\n " +
+                "de unos 40 litros es un buen punto de partida para un solo ajolote.\r\n", 
+            
+                "Texto 2", "Texto 3", "Texto 4", "Texto 5" };
 
         private Image[] images = { Properties.Resources.Ac4, // Replace "Image1" with your image resources' names
                                    // ... (add other images corresponding to the text entries)
