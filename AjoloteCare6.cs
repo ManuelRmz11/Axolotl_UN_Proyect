@@ -12,9 +12,13 @@ namespace Axolotl_UN_Proyect
 {
     public partial class AjoloteCare6 : Form
     {
+
+
         public AjoloteCare6()
         {
             InitializeComponent();
         }
+
+        
     }
 }
