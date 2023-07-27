@@ -123,6 +123,26 @@ namespace Axolotl_UN_Proyect.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Ac5 {
+            get {
+                object obj = ResourceManager.GetObject("Ac5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Ac5f {
+            get {
+                object obj = ResourceManager.GetObject("Ac5f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Ajolote2 {
             get {
                 object obj = ResourceManager.GetObject("Ajolote2", resourceCulture);

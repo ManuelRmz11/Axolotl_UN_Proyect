@@ -23,5 +23,13 @@ namespace Axolotl_UN_Proyect
             this.Hide();
             principal.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            AjoloteCare4 principal = new AjoloteCare4();
+            this.Hide();
+            principal.Show();
+        }
     }
 }
