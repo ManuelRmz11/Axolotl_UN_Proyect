@@ -294,5 +294,35 @@
   <ItemGroup>
     <None Include="Resources\Ac5f.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ac51.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ac52.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ac9.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ac58.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ac57.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ac56.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ac55.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ac54.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ac53.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ac510.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

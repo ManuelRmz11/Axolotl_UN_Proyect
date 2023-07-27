@@ -118,17 +118,29 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="fontac" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fontac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_fb272b73-1e7d-41df-84e9-e746857ae920" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_fb272b73-1e7d-41df-84e9-e746857ae920.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MAjolote5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MAjolote5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="AtrasMemorama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AtrasMemorama.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jpg5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jpg5.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MAjolote2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAjolote2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MAjolote4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MAjolote4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ac51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac51.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FondoAjoloteWord2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FondoAjoloteWord2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ac41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac41.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAjolote1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAjolote1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5ece9335-e050-4d3e-9b5c-73b919d90140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_5ece9335-e050-4d3e-9b5c-73b919d90140.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FondoAjoloteWord3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FondoAjoloteWord3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,64 +148,82 @@
   <data name="Font1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Font1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_5ece9335-e050-4d3e-9b5c-73b919d90140" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\_5ece9335-e050-4d3e-9b5c-73b919d90140.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ac4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac4.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ajolote2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ajolote2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MAjolote4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAjolote4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MAjolote6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MAjolote6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MAjolote5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAjolote5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AtrasMemorama" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AtrasMemorama.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FondoAjoloteWord2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FondoAjoloteWord2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="String" xml:space="preserve">
-    <value>pictureBox1.Invoke((MethodInvoker)(() =&gt; pictureBox1.Image = Properties.Resources.NuevaImagen));</value>
-  </data>
-  <data name="jpg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jpg3.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ac5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ac5.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ac41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ac41.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ac42" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ac42.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ac52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac52.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MAjolote3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MAjolote3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FondoAjoloteWord21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FondoAjoloteWord21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fontac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_fb272b73-1e7d-41df-84e9-e746857ae920" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\_fb272b73-1e7d-41df-84e9-e746857ae920.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ajolote3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ajolote3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="String" xml:space="preserve">
+    <value>pictureBox1.Invoke((MethodInvoker)(() =&gt; pictureBox1.Image = Properties.Resources.NuevaImagen));</value>
   </data>
   <data name="444" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\444.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MAjolote2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MAjolote2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MAjolote1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MAjolote1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="jpg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jpg3.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LogoAjoloteWord" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LogoAjoloteWord.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ac4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ac4.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Ac5f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ac5f.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ajolote3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ajolote3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ac42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac42.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ac5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac5.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FondoAjoloteWord21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FondoAjoloteWord21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jpg5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jpg5.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAjolote6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAjolote6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ajolote2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ajolote2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ac9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac9.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ac58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac58.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ac57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac57.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ac56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac56.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ac55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac55.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ac54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac54.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ac53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac53.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ac510" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ac510.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -27,7 +27,7 @@ namespace Axolotl_UN_Proyect
         private void button1_Click(object sender, EventArgs e)
         {
 
-            AjoloteCare4 principal = new AjoloteCare4();
+            AjoloteCare5 principal = new AjoloteCare5();
             this.Hide();
             principal.Show();
         }
