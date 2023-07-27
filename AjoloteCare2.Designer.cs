@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnAvanzar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegresar = new System.Windows.Forms.Button();
@@ -48,26 +47,9 @@
             this.checkBox12 = new System.Windows.Forms.CheckBox();
             this.btnResponder = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnsalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnAvanzar
-            // 
-            this.btnAvanzar.BackColor = System.Drawing.Color.Transparent;
-            this.btnAvanzar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAvanzar.FlatAppearance.BorderSize = 0;
-            this.btnAvanzar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(81)))), ((int)(((byte)(136)))));
-            this.btnAvanzar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(170)))));
-            this.btnAvanzar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAvanzar.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAvanzar.ForeColor = System.Drawing.Color.Transparent;
-            this.btnAvanzar.Location = new System.Drawing.Point(1085, 506);
-            this.btnAvanzar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAvanzar.Name = "btnAvanzar";
-            this.btnAvanzar.Size = new System.Drawing.Size(87, 30);
-            this.btnAvanzar.TabIndex = 8;
-            this.btnAvanzar.Text = "Avanzar";
-            this.btnAvanzar.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -314,6 +296,21 @@
             this.label4.Text = "T\r\nR\r\nI\r\nV\r\nI\r\nA\r\n\r\nA\r\nX\r\nO\r\nL\r\nO\r\nT\r\nL";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnsalir
+            // 
+            this.btnsalir.BackColor = System.Drawing.Color.Red;
+            this.btnsalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnsalir.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsalir.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnsalir.Location = new System.Drawing.Point(1067, 503);
+            this.btnsalir.Name = "btnsalir";
+            this.btnsalir.Size = new System.Drawing.Size(75, 37);
+            this.btnsalir.TabIndex = 53;
+            this.btnsalir.Tag = "btnsalir";
+            this.btnsalir.Text = "Salir";
+            this.btnsalir.UseVisualStyleBackColor = false;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
+            // 
             // AjoloteCare2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -321,6 +318,7 @@
             this.BackgroundImage = global::Axolotl_UN_Proyect.Properties.Resources._444;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1173, 547);
+            this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnResponder);
             this.Controls.Add(this.checkBox9);
@@ -337,7 +335,6 @@
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnAvanzar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresar);
@@ -351,8 +348,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnAvanzar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnRegresar;
@@ -372,5 +367,6 @@
         private System.Windows.Forms.CheckBox checkBox12;
         private System.Windows.Forms.Button btnResponder;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnsalir;
     }
 }

@@ -54,5 +54,12 @@ namespace Axolotl_UN_Proyect
                 MessageBox.Show("Opción incorrecta, inténtalo de nuevo", "Ups");
             }
         }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            FormPrincipal principal = new FormPrincipal();
+            this.Hide();
+            principal.Show();
+        }
     }
 }

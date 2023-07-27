@@ -61,5 +61,12 @@ namespace Axolotl_UN_Proyect
             this.Hide();
             principal.Show();
         }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            FormPrincipal principal = new FormPrincipal();
+            this.Hide();
+            principal.Show();
+        }
     }
 }

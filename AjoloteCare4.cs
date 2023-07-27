@@ -45,5 +45,12 @@ namespace Axolotl_UN_Proyect
             // Opción seleccionada es incorrecta.
             MessageBox.Show("Respuesta incorrecta. Inténtalo nuevamente.", "Que mal");
         }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            FormPrincipal principal = new FormPrincipal();
+            this.Hide();
+            principal.Show();
+        }
     }
 }

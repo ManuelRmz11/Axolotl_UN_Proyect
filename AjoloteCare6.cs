@@ -77,7 +77,10 @@ namespace Axolotl_UN_Proyect
         private void btnsalir_Click(object sender, EventArgs e)
         {
             MessageBox.Show("GRACIAS POR LLEGAR HASTA EL FINAL (F._.F)", "CERRANDO");
-            Application.Exit();
+
+            FormPrincipal principal = new FormPrincipal();
+            this.Hide();
+            principal.Show();
         }
     }
 }
