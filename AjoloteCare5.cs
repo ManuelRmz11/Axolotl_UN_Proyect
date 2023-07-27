@@ -20,9 +20,12 @@ namespace Axolotl_UN_Proyect
 
                 "Temperatura y agua:\r\n " +
                 "\r\nLa temperatura del agua debe mantenerse\r\n" +
-                " entre 16-20°C, ya que son animales acuáticos de climas templados. \r\n" +
-                "Utiliza un calentador y un termómetro para asegurarte de mantener la \r\n" +
-                "temperatura adecuada. Además, utiliza un filtro para mantener el agua \r\n" +
+                " entre 16-20°C, ya que son animales acuáticos \r\n" +
+                "de climas templados. \r\n" +
+                "Utiliza un calentador y un termómetro para\r\n " +
+                "asegurarte de mantener la \r\n" +
+                "temperatura adecuada. Además, utiliza un filtro \r\n" +
+                "para mantener el agua \r\n" +
                 "limpia y libre de contaminantes.",
 
                 "Escondites: \r\n" +
@@ -92,7 +95,7 @@ namespace Axolotl_UN_Proyect
             InitializeComponent();
 
             timer = new Timer();
-            timer.Interval = 10000;
+            timer.Interval = 15000;
             timer.Tick += Timer_Tick;
             timer.Start();
         }
