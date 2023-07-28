@@ -286,6 +286,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.picAjol1);
             this.Name = "AjoloteCare6";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AjoloteCare6";
             ((System.ComponentModel.ISupportInitialize)(this.picAjol3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAjol2)).EndInit();
