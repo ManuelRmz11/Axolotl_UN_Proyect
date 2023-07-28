@@ -113,18 +113,6 @@
     <Compile Include="AjoloteCare6.Designer.cs">
       <DependentUpon>AjoloteCare6.cs</DependentUpon>
     </Compile>
-    <Compile Include="AjoloteCare7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AjoloteCare7.Designer.cs">
-      <DependentUpon>AjoloteCare7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AjoloteCare8.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AjoloteCare8.Designer.cs">
-      <DependentUpon>AjoloteCare8.cs</DependentUpon>
-    </Compile>
     <Compile Include="AjoloteWord.cs">
       <SubType>Form</SubType>
     </Compile>
