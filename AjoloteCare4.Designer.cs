@@ -51,7 +51,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(524, 56);
             this.label1.TabIndex = 10;
-            this.label1.Text = "En que año fueron traidos \r\npor primera vez de México a Paris los Ajolotes?\r\n";
+            this.label1.Text = "En que año fueron llevados \r\npor primera vez de México a Paris los Ajolotes?\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1

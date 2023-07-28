@@ -35,7 +35,7 @@ namespace Axolotl_UN_Proyect
         {
             timer.Stop();
             label1.Invoke((MethodInvoker)(() => label1.Text = "Los ajolotes han fascinado al público\r\n" +
-            " durante mucho tiempo, más aún cuando fueron traídos por\r\n" +
+            " durante mucho tiempo, más aún cuando fueron llevados por\r\n" +
             " primera vez de México a París en 1864 . \r\n" +
             "Los europeos de todo el continente comenzaron a criar salamandras,\r\n" +
             "el comienzo de un fuerte comercio de mascotas en los animales,\r\n" +
